@@ -1,0 +1,198 @@
+@import url(reset.css);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* font-size: 30px; */
+  font-family: Arial;
+  /* background-color: #ffe893; */
+  width: 1200px;
+  margin: 0 auto;
+}
+/*----- banner -----*/
+.banner ul {
+  width: 1200px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.banner li {
+  background-size: cover;
+  background-position: center center;
+  transition: 0.5s;
+}
+
+.item1 {
+  background-image: url(../img/PRODUCT/pr-ad.jpg);
+  flex-grow: 1;
+}
+
+.item2 {
+  background-image: url(../img/PRODUCT/pr-ad1.jpg);
+  flex-grow: 1;
+}
+
+.item3 {
+  background-image: url(../img/PRODUCT/pr-ad2.jpg);
+  flex-grow: 1;
+}
+
+.banner li:hover {
+  flex-grow: 1.5;
+}
+
+/*----- 限定專區 -----*/
+.lim-out {
+  display: flex;
+  margin: 15px 0;
+}
+
+.lim-left {
+  width: 830px;
+  order: 2;
+  color: #ffe893;
+  display: block;
+  padding-left: 20px;
+  padding-top: 20px;
+  background-color: #cc9382;
+}
+
+.lim-left h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+.lim-card-out {
+  display: flex;
+  align-items: center;
+}
+
+.lim-card ul {
+  display: flex;
+  color: white;
+  margin: 40px 50px;
+}
+
+.lim-card li {
+  width: 300px;
+  border: 3px solid white;
+  background-color: #7a554a;
+  margin: 0 15px;
+  padding: 20px 10px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.lim-right ul {
+  display: flex;
+}
+.lim-right li {
+  width: 370px;
+}
+.lim-right img {
+  width: 100%;
+  display: block;
+}
+
+/*----- 黑糖專區 -----*/
+.bs-out {
+  display: flex;
+  margin: 15px 0;
+}
+
+.bs-left {
+  width: 830px;
+  color: #ffe893;
+  padding-left: 20px;
+  padding-top: 20px;
+  background-color: #88684e;
+}
+
+.bs-left h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+.bs-card-out {
+  display: flex;
+  align-items: center;
+}
+
+.bs-card ul {
+  display: flex;
+  color: white;
+  margin: 40px 50px;
+}
+
+.bs-card li {
+  width: 300px;
+  border: 3px solid white;
+  background-color: #d3b196;
+  margin: 0 15px;
+  padding: 20px 10px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.bs-right ul {
+  display: flex;
+}
+.bs-right li {
+  width: 370px;
+}
+.bs-right img {
+  width: 100%;
+  display: block;
+}
+
+/*----- 奶茶專區 -----*/
+.mk-out {
+  display: flex;
+  margin: 15px 0;
+}
+
+.mk-left {
+  width: 830px;
+  order: 2;
+  color: #ffe893;
+  padding-left: 20px;
+  padding-top: 20px;
+  background-color: #687d93;
+}
+
+.mk-left h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+.mk-card-out {
+  display: flex;
+  align-items: center;
+}
+
+.mk-card ul {
+  display: flex;
+  color: white;
+  margin: 40px 50px;
+}
+
+.mk-card li {
+  width: 300px;
+  border: 3px solid white;
+  background-color: #7a554a;
+  margin: 0 15px;
+  padding: 20px 10px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.mk-right ul {
+  display: flex;
+}
+.mk-right li {
+  width: 370px;
+}
+.mk-right img {
+  width: 100%;
+  display: block;
+}

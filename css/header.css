@@ -1,0 +1,32 @@
+/* ----- Header ----- */
+.nav {
+  /* width: 1200px; */
+  background-color: #4d952e;
+  display: flex;
+}
+
+.nav .logo {
+  padding: 20px 20px;
+}
+
+.nav ul {
+  display: flex;
+  width: 1060px;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+}
+.nav li {
+  font-size: 20px;
+}
+
+.nav ul a {
+  text-decoration: none;
+  color: white;
+  /* border: 1px solid red; */
+}
+
+.nav ul a:hover {
+  background-color: #ffe893;
+  transition-duration: 0.5s;
+}

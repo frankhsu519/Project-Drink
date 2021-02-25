@@ -1,0 +1,155 @@
+@import url(reset.css);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* font-size: 30px; */
+  font-family: Arial;
+  /* background-color: #ffe893; */
+  width: 1200px;
+  margin: 0 auto;
+}
+/*---------------- TOP NEWS ------------------- */
+.big-news {
+  width: 1200px;
+  color: white;
+  margin-bottom: 20px;
+  display: flex;
+  background-color: #ffe893;
+  align-items: center;
+}
+.big-left {
+  width: 600px;
+}
+.big-left h2 {
+  font-size: 36px;
+  padding-top: 30px;
+  padding-left: 30px;
+  color: #9f915c;
+}
+.big-left h2 + h2 {
+  color: red;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.big-left h3 {
+  padding-left: 180px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.big-left h1 a {
+  font-size: 35px;
+  margin-top: 100px;
+  margin-left: 100px;
+  display: block;
+  width: 400px;
+  text-align: center;
+  text-decoration: none;
+  /* border: 1px solid red; */
+}
+.big-left h1 a:hover {
+  color: black;
+}
+.seemore {
+  display: block;
+  width: 250px;
+  height: 50px;
+  background-color: yellow;
+  text-align: center;
+  text-decoration: none;
+  line-height: 50px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  margin-left: 200px;
+}
+
+.seemore:hover {
+  background-color: #9f915c;
+  transition-duration: 1s;
+}
+
+.big-right img {
+  width: 55%;
+  margin-left: 250px;
+}
+
+/*------- down news  -------*/
+.down-news {
+  /* background-color: red; */
+  /* border: 2px solid green; */
+  position: relative;
+}
+
+.down-news img {
+  width: 100%;
+}
+.down-news ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+
+  background-color: #ffe893;
+}
+
+.down-news li {
+  width: 280px;
+  margin: 10px 10px 10px 10px;
+}
+
+.down-news a {
+  display: block;
+  width: 110px;
+  font-size: 20px;
+  background-color: yellow;
+  text-align: center;
+  text-decoration: none;
+}
+
+.down-news a:hover {
+  background-color: tomato;
+  transition-duration: 1s;
+}
+
+.down-news h2 {
+  color: white;
+  font-size: 20px;
+}
+.news1 a {
+  position: absolute;
+  left: 180px;
+  top: 280px;
+}
+
+.news2 a {
+  position: absolute;
+  left: 480px;
+  top: 280px;
+}
+
+.news3 a {
+  position: absolute;
+  left: 780px;
+  top: 280px;
+}
+
+.news4 a {
+  position: absolute;
+  left: 1080px;
+  top: 280px;
+}
+
+.news5 a {
+  position: absolute;
+  left: 180px;
+  top: 603px;
+}
+
+.news6 a {
+  position: absolute;
+  left: 480px;
+  top: 603px;
+}

@@ -1,0 +1,185 @@
+@import url(reset.css);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* font-size: 30px; */
+  font-family: Arial;
+  /* background-color: #ffe893; */
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.line {
+  display: block;
+  width: 1000px;
+  border: 0.5px solid white;
+  margin: 30px auto;
+}
+/* top */
+
+.top {
+  /* width: 1200px; */
+  height: 200px;
+  background-image: url(../img/ABOUTUS/Aboutus-new.jpg);
+  opacity: 0.8;
+}
+.top h1 {
+  color: white;
+  text-align: center;
+  line-height: 200px;
+}
+
+/* 服務態度 */
+
+.out {
+  background-color: #ffe893;
+}
+.att {
+  display: flex;
+}
+
+.att-left {
+  width: 600px;
+  /* border: 1px solid red; */
+}
+
+.att-left img {
+  margin-top: 60px;
+  width: 70%;
+  padding-left: 30px;
+}
+
+.att-right {
+  width: 600px;
+  color: black;
+  margin-top: 60px;
+}
+
+.att-right h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.att-right p {
+  width: 550px;
+  line-height: 1.2;
+  font-size: 22px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+/* milk */
+
+.milk {
+  display: flex;
+}
+
+.milk-left {
+  width: 600px;
+  order: 2;
+}
+
+.milk-left img {
+  margin-top: 30px;
+  width: 60%;
+  margin-left: 100px;
+  border-radius: 50%;
+}
+
+.milk-right {
+  width: 600px;
+  color: black;
+  margin-top: 60px;
+}
+
+.milk-right h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-left: 30px;
+}
+.milk-right p {
+  width: 550px;
+  font-size: 22px;
+  line-height: 1.2;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+/* leaf */
+
+.leaf {
+  display: flex;
+}
+
+.leaf-left {
+  width: 600px;
+  /* border: 1px solid red; */
+}
+
+.leaf-left img {
+  margin-top: 60px;
+  width: 70%;
+  padding-left: 30px;
+  /* border-radius: 65% */
+}
+
+.leaf-right {
+  width: 600px;
+  color: black;
+  margin-top: 60px;
+}
+
+.leaf-right h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.leaf-right p {
+  width: 550px;
+  font-size: 22px;
+  line-height: 1.2;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+/* milk */
+
+.Brownsugar {
+  display: flex;
+}
+
+.Brownsugar-left {
+  width: 600px;
+  order: 2;
+}
+
+.Brownsugar-left img {
+  margin-top: 30px;
+  width: 60%;
+  margin-left: 100px;
+  border-radius: 50%;
+}
+
+.Brownsugar-right {
+  width: 600px;
+  color: black;
+  margin-top: 60px;
+}
+
+.Brownsugar-right h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-left: 30px;
+}
+.Brownsugar-right p {
+  width: 550px;
+  font-size: 22px;
+  line-height: 1.2;
+  padding-left: 30px;
+  padding-top: 15px;
+}

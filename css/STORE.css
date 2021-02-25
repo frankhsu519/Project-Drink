@@ -1,0 +1,38 @@
+@import url(reset.css);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* font-size: 30px; */
+  font-family: Arial;
+  /* background-color: #ffe893; */
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.outer {
+  background-image: url(../img/STORE/map3-new.png);
+  height: 500px;
+  background-position: 90px top;
+}
+.top {
+}
+
+.top h1 {
+  color: white;
+  font-size: 45px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.dropdown {
+  padding-left: 30px;
+  margin-top: 20px;
+}
+
+.dropdown select {
+  font-size: 20px;
+  margin-right: 20px;
+}
