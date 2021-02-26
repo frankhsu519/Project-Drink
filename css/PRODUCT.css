@@ -47,7 +47,7 @@ body {
 /*----- 限定專區 -----*/
 .lim-out {
   display: flex;
-  margin: 15px 0;
+  margin: 30px 0;
 }
 
 .lim-left {
@@ -85,6 +85,10 @@ body {
   line-height: 2;
 }
 
+.lim-card i {
+  line-height: 1.6;
+}
+
 .lim-right ul {
   display: flex;
 }
@@ -99,7 +103,7 @@ body {
 /*----- 黑糖專區 -----*/
 .bs-out {
   display: flex;
-  margin: 15px 0;
+  margin: 30px 0;
 }
 
 .bs-left {
@@ -134,7 +138,9 @@ body {
   font-size: 20px;
   line-height: 2;
 }
-
+.bs-card i {
+  line-height: 1.6;
+}
 .bs-right ul {
   display: flex;
 }
@@ -149,7 +155,7 @@ body {
 /*----- 奶茶專區 -----*/
 .mk-out {
   display: flex;
-  margin: 15px 0;
+  margin: 30px 0;
 }
 
 .mk-left {
@@ -186,6 +192,9 @@ body {
   line-height: 2;
 }
 
+.mk-card i {
+  line-height: 1.6;
+}
 .mk-right ul {
   display: flex;
 }
