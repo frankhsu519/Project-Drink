@@ -120,7 +120,7 @@ input[type="radio"] {
   writing-mode: vertical-lr;
   text-orientation: upright;
   font-size: 36px;
-  padding-left: 70px;
+  padding-left: 50px;
   padding-top: 20px;
 }
 
@@ -164,6 +164,7 @@ input[type="radio"] {
   font-size: 36px;
   color: white;
   padding-top: 30px;
+  padding-left: 20px;
   margin-bottom: 30px;
 }
 
