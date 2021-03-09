@@ -16,6 +16,35 @@
   justify-content: space-around;
   /* border: 1px solid red; */
 }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .nav ul {
+    width: 900px;
+    border: 2px solid yellow;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .nav ul {
+    width: 700px;
+    border: 2px solid red;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .nav ul {
+    width: 500px;
+    border: 2px solid orange;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .nav ul {
+    width: 300px;
+    border: 2px solid white;
+  }
+}
+
 .nav li {
   font-size: 20px;
 }
