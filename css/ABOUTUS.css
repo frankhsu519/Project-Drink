@@ -18,6 +18,30 @@ body {
   border: 0.5px solid white;
   margin: 30px auto;
 }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .line {
+    width: 800px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .line {
+    width: 700px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .line {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .line {
+    width: 400px;
+  }
+}
 /* top */
 
 .top {
@@ -26,6 +50,7 @@ body {
   background-image: url(../img/ABOUTUS/Aboutus-new.jpg);
   opacity: 0.8;
 }
+
 .top h1 {
   color: white;
   text-align: center;
@@ -33,11 +58,38 @@ body {
   font-size: 25px;
 }
 
+/* TOP RWD BLOCK */
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .top {
+    width: 992px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .top {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .top {
+    width: 576px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .top {
+    width: 500px;
+  }
+}
+
 /* 服務態度 */
 
 .out {
   background-color: #ffe893;
 }
+
 .att {
   display: flex;
 }
@@ -147,7 +199,7 @@ body {
   padding-top: 15px;
 }
 
-/* milk */
+/* Brownsugar */
 
 .Brownsugar {
   display: flex;
@@ -183,4 +235,212 @@ body {
   line-height: 1.2;
   padding-left: 30px;
   padding-top: 15px;
+}
+
+/* RWD Block */
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .out {
+    width: 992px;
+  }
+  /* 態度 & 茶葉 RWD */
+  .att,
+  .leaf {
+    width: 992px;
+    /* border: 1px solid green; */
+  }
+
+  .att-left,
+  .leaf-left {
+    width: 300px;
+    /* border: 1px solid purple; */
+  }
+
+  .att-left img,
+  .leaf-left img {
+    width: 300px !important;
+  }
+  /* milk & Brownsugar*/
+  .milk,
+  .Brownsugar {
+    width: 992px;
+    /* border: 1px solid green; */
+  }
+
+  .milk-left,
+  .Brownsugar-left {
+    width: 300px;
+    /* border: 1px solid purple; */
+  }
+
+  .milk-left img,
+  .Brownsugar-left img {
+    width: 280px !important;
+    margin-left: 10px !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .out {
+    width: 768px;
+  }
+  /* 態度 & 茶葉 RWD */
+  .att,
+  .leaf {
+    width: 768px;
+    /* border: 1px solid green; */
+  }
+  .att-left,
+  .leaf-left {
+    width: 300px;
+    /* border: 1px solid red; */
+  }
+  .att-left img,
+  .leaf-left img {
+    width: 280px !important;
+  }
+  .att-right,
+  .leaf-right {
+    width: 468px !important;
+    /* border: 1px solid; */
+  }
+
+  .att-right h1,
+  .leaf-right h1 {
+    font-size: 30px !important;
+  }
+
+  .att-right p,
+  .leaf-right p {
+    width: 450px !important;
+  }
+
+  /* milk & Brownsugar */
+  .milk,
+  .Brownsugar {
+    width: 768px;
+    /* border: 1px solid green; */
+  }
+  .milk-left,
+  .Brownsugar-left {
+    width: 300px;
+    /* border: 1px solid red; */
+  }
+  .milk-left img,
+  .Brownsugar-left img {
+    width: 280px !important;
+    margin-left: 10px !important;
+    margin-top: 50px !important;
+  }
+  .milk-right,
+  .Brownsugar-right {
+    width: 468px !important;
+    /* border: 1px solid; */
+  }
+
+  .milk-right h1,
+  .Brownsugar-right h1 {
+    font-size: 30px !important;
+  }
+
+  .milk-right p,
+  .Brownsugar-right p {
+    width: 450px !important;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .out {
+    width: 576px;
+  }
+  /* 態度 & 茶葉 RWD */
+  .att,
+  .leaf {
+    width: 576px;
+    flex-wrap: wrap;
+  }
+  .att-right h1,
+  .leaf-right h1 {
+    text-align: center;
+  }
+  .att-left img,
+  .leaf-left img {
+    width: 350px !important;
+    /* border: 1px solid; */
+    margin-left: 100px;
+  }
+
+  /* milk & Brownsugar */
+  .milk,
+  .Brownsugar {
+    width: 576px;
+    flex-wrap: wrap-reverse;
+  }
+  .milk-right h1,
+  .Brownsugar-right h1 {
+    text-align: center;
+  }
+  .milk-left img,
+  .Brownsugar-left img {
+    width: 350px !important;
+    /* border: 1px solid; */
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .out {
+    width: 500px;
+  }
+  /* 態度 & 茶葉 RWD */
+  .att,
+  .leaf {
+    width: 500px;
+    flex-wrap: wrap-reverse;
+  }
+
+  .att-right h1,
+  .leaf-right h1 {
+    width: 480px;
+    font-size: 30px !important;
+    /* border: 1px solid; */
+    text-align: center;
+  }
+
+  .att-right p,
+  .leaf-right p {
+    width: 480px !important;
+    /* border: 1px solid; */
+  }
+
+  .att-left img,
+  .leaf-left img {
+    margin-left: 50px;
+  }
+
+  /* milk & Brownsugar */
+  .milk,
+  .Brownsugar {
+    width: 500px;
+    flex-wrap: wrap;
+  }
+
+  .milk-right h1,
+  .Brownsugar-right h1 {
+    width: 480px;
+    font-size: 30px !important;
+    /* border: 1px solid; */
+    text-align: center;
+  }
+
+  .milk-right p,
+  .Brownsugar-right p {
+    width: 480px !important;
+    /* border: 1px solid; */
+  }
+
+  .milk-left img,
+  .Brownsugar-left img {
+    margin-left: 90px;
+  }
 }

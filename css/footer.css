@@ -7,6 +7,42 @@
   justify-content: space-around;
 }
 
+/* RWD ST */
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .footer {
+    width: 992px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .footer {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .footer {
+    width: 576px;
+    flex-wrap: wrap;
+  }
+  .footer-icon ul {
+    margin-right: 230px !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .footer {
+    width: 500px;
+    flex-wrap: wrap;
+  }
+  .footer-text li {
+    text-align: center;
+  }
+}
+
+/* RWD END */
+
 .footer-text {
   color: white;
 }
