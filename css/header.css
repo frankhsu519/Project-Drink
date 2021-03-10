@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .nav ul {
     width: 768px;
     border: 2px solid red;
@@ -37,7 +37,7 @@
   }
 }
 
-@media screen and (min-width: 576px) and (max-width: 767px) {
+@media screen and (min-width: 576px) and (max-width: 768px) {
   .nav ul {
     width: 576px;
     border: 2px solid orange;
@@ -47,7 +47,7 @@
   }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 576px) {
   .nav ul {
     width: 500px;
     border: 2px solid white;
