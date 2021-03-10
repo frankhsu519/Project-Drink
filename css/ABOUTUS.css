@@ -93,6 +93,7 @@ body {
 
 .att {
   display: flex;
+  justify-content: center;
 }
 
 .att-left {
@@ -129,6 +130,7 @@ body {
 
 .milk {
   display: flex;
+  justify-content: center;
 }
 
 .milk-left {
@@ -167,6 +169,7 @@ body {
 
 .leaf {
   display: flex;
+  justify-content: center;
 }
 
 .leaf-left {
@@ -204,6 +207,7 @@ body {
 
 .Brownsugar {
   display: flex;
+  justify-content: center;
 }
 
 .Brownsugar-left {
