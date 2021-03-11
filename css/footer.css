@@ -11,19 +11,19 @@
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .footer {
-    width: 992px;
+    width: 972px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   .footer {
-    width: 768px;
+    width: 748px;
   }
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
   .footer {
-    width: 576px;
+    width: 556px;
     flex-wrap: wrap;
   }
   .footer-icon ul {
@@ -31,9 +31,9 @@
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
   .footer {
-    width: 500px;
+    width: 481px;
     flex-wrap: wrap;
   }
   .footer-text li {

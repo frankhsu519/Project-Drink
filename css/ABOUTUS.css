@@ -18,6 +18,7 @@ body {
   width: 1000px;
   border: 0.5px solid white;
   margin: 30px auto;
+  background-color: #ffe893;
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -26,19 +27,19 @@ body {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   .line {
     width: 700px;
   }
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
   .line {
     width: 500px;
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
   .line {
     width: 400px;
   }
@@ -63,25 +64,25 @@ body {
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .top {
-    width: 992px;
+    width: 970px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   .top {
-    width: 768px;
+    width: 748px;
   }
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
   .top {
-    width: 576px;
+    width: 556px;
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
   .top {
-    width: 500px;
+    width: 481px;
   }
 }
 
@@ -226,6 +227,7 @@ body {
   width: 600px;
   color: black;
   margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .Brownsugar-right h1 {
@@ -246,12 +248,12 @@ body {
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .out {
-    width: 992px;
+    width: 972px;
   }
   /* 態度 & 茶葉 RWD */
   .att,
   .leaf {
-    width: 992px;
+    width: 972px;
     /* border: 1px solid green; */
   }
 
@@ -268,7 +270,7 @@ body {
   /* milk & Brownsugar*/
   .milk,
   .Brownsugar {
-    width: 992px;
+    width: 972px;
     /* border: 1px solid green; */
   }
 
@@ -285,14 +287,14 @@ body {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   .out {
-    width: 768px;
+    width: 748px;
   }
   /* 態度 & 茶葉 RWD */
   .att,
   .leaf {
-    width: 768px;
+    width: 748px;
     /* border: 1px solid green; */
   }
   .att-left,
@@ -323,7 +325,7 @@ body {
   /* milk & Brownsugar */
   .milk,
   .Brownsugar {
-    width: 768px;
+    width: 748px;
     /* border: 1px solid green; */
   }
   .milk-left,
@@ -354,14 +356,14 @@ body {
   }
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
   .out {
-    width: 576px;
+    width: 556px;
   }
   /* 態度 & 茶葉 RWD */
   .att,
   .leaf {
-    width: 576px;
+    width: 556px;
     flex-wrap: wrap;
   }
   .att-right h1,
@@ -378,7 +380,7 @@ body {
   /* milk & Brownsugar */
   .milk,
   .Brownsugar {
-    width: 576px;
+    width: 556px;
     flex-wrap: wrap-reverse;
   }
   .milk-right h1,
@@ -393,14 +395,14 @@ body {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
   .out {
-    width: 500px;
+    width: 481px;
   }
   /* 態度 & 茶葉 RWD */
   .att,
   .leaf {
-    width: 500px;
+    width: 481px;
     flex-wrap: wrap-reverse;
   }
 
@@ -414,19 +416,19 @@ body {
 
   .att-right p,
   .leaf-right p {
-    width: 480px !important;
+    width: 470px !important;
     /* border: 1px solid; */
   }
 
   .att-left img,
   .leaf-left img {
-    margin-left: 50px;
+    margin-left: 60px;
   }
 
   /* milk & Brownsugar */
   .milk,
   .Brownsugar {
-    width: 500px;
+    width: 481px;
     flex-wrap: wrap;
   }
 
@@ -440,12 +442,13 @@ body {
 
   .milk-right p,
   .Brownsugar-right p {
-    width: 480px !important;
+    width: 470px !important;
     /* border: 1px solid; */
   }
 
   .milk-left img,
   .Brownsugar-left img {
-    margin-left: 90px;
+    margin-left: 110px;
+    margin-bottom: 30px;
   }
 }

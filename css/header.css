@@ -19,41 +19,41 @@
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .nav ul {
-    width: 900px;
+    width: 972px;
     border: 2px solid yellow;
   }
   .nav {
-    width: 992px;
+    width: 972px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   .nav ul {
-    width: 768px;
+    width: 748px;
     border: 2px solid red;
   }
   .nav {
-    width: 768px;
+    width: 748px;
   }
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
   .nav ul {
-    width: 576px;
+    width: 556px;
     border: 2px solid orange;
   }
   .nav {
-    width: 576px;
+    width: 556px;
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
   .nav ul {
-    width: 500px;
+    width: 481px;
     border: 2px solid white;
   }
   .nav {
-    width: 500px;
+    width: 481px;
   }
 }
 
