@@ -38,21 +38,22 @@
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  .nav ul {
+  #normal {
     /* width: 556px;
     border: 2px solid orange; */
     display: none;
   }
   .nav {
     width: 556px;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
   }
 }
 
 @media screen and (max-width: 575px) {
-  .nav ul {
+  #normal {
     width: 481px;
     /* border: 2px solid white; */
+    display: none;
   }
   .nav {
     width: 481px;
@@ -72,4 +73,124 @@
 .nav ul a:hover {
   background-color: #ffe893;
   transition-duration: 0.5s;
+}
+
+/* .box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+} */
+
+/* #toggler:checked + label .box {
+  background-color: cyan;
+} */
+
+.hamburger-out {
+  display: none;
+}
+
+#toggler {
+  display: none;
+}
+
+.hamburger {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 60px;
+  left: 350px;
+  z-index: 2;
+}
+
+.hamburger span {
+  display: block;
+  height: 1px;
+  background-color: #ffe893;
+  position: relative;
+  transition: transform 0.3s ease-in-out, top 0.3s ease-in-out 0.3s;
+  top: 0;
+}
+
+.hamburger span:nth-child(2) {
+  margin-top: 7px;
+}
+
+.hamburger span:nth-child(3) {
+  margin-top: 7px;
+}
+
+#toggler:checked + label .hamburger span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 4px;
+  transition: top 0.3s ease-in-out, transform 0.3s ease-in-out 0.3s;
+}
+
+#toggler:checked + label .hamburger span:nth-child(2) {
+  transform: rotate(-45deg);
+  top: -4px;
+  transition: top 0.3s ease-in-out, transform 0.3s ease-in-out 0.3s;
+}
+
+#toggler:checked + label .hamburger span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: -12px;
+  transition: top 0.3s ease-in-out, transform 0.3s ease-in-out 0.3s;
+}
+
+.nav-item {
+  background-color: #4d952e;
+  width: 556px;
+  height: 310px;
+  position: absolute;
+  top: 120px;
+  left: 0;
+  transform: scaleY(0);
+  transition: transform 0.3s ease-in-out;
+  transform-origin: 50% 0;
+  z-index: 3;
+}
+
+.nav-item ul {
+  width: 556px;
+  display: block;
+  text-align: center;
+}
+
+.nav-item li {
+  padding: 20px;
+}
+
+#toggler:checked ~ .nav-item {
+  transform: scaleY(1);
+}
+
+.nav-item li {
+  border-bottom: 1px solid white;
+}
+.nav-item li:nth-child(5) {
+  border: none;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .hamburger-out {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .hamburger-out {
+    display: block;
+  }
+
+  .hamburger {
+    left: 270px;
+  }
+  .nav-item {
+    width: 481px;
+  }
+
+  .nav-item ul {
+    width: 481px;
+  }
 }
