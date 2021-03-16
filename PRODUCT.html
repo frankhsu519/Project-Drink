@@ -11,23 +11,50 @@
         crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/nowfocus.css">
     <link rel="stylesheet" href="./css/PRODUCT.css">
 </head>
 
 <body>
     <!----- Header ----->
-    <div class="nav">
-        <div class="logo">
-            <a href="./index.html"><img src="img/logo/logo5.png" alt=""></a>
+<div class="nav">
+    <div class="logo">
+        <a href="./index.html"><img src="./img/logo/logo5.png" alt=""></a>
+    </div>
+
+    <ul id="normal">
+        <li><a href="./NEWS.html">最新消息</a></li>
+        <li><a href="./ABOUTUS.html">關於我們</a></li>
+        <li><a href="./STORE.html">門市據點</a></li>
+        <li><a class="nowfocus" href="./PRODUCT.html">產品介紹</a></li>
+        <li><a href="./CONTACTUS.html">聯絡我們</a></li>
+    </ul>
+
+
+    <!-- RWD -->
+    <div class="hamburger-out">
+        <input type="checkbox" id="toggler">
+
+        <label for="toggler">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+
+
+            </div>
+        </label>
+
+        <div class="nav-item">
+            <ul>
+                <li><a href="./NEWS.html">最新消息</a></li>
+                <li><a  href="./ABOUTUS.html">關於我們</a></li>
+                <li><a href="./STORE.html">門市據點</a></li>
+                <li><a class="nowfocus" href="./PRODUCT.html">產品介紹</a></li>
+                <li><a href="./CONTACTUS.html">聯絡我們</a></li>
+            </ul>
         </div>
-    
-        <ul>
-            <li><a href="./NEWS.html">最新消息</a></li>
-            <li><a href="./ABOUTUS.html">關於我們</a></li>
-            <li><a href="./STORE.html">門市據點</a></li>
-            <li><a class="nowfocus" href="./PRODUCT.html">產品介紹</a></li>
-            <li><a href="./CONTACTUS.html">聯絡我們</a></li>
-        </ul>
+    </div>
     </div>
     
     <!----- banner ----->
