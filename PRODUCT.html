@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/nowfocus.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="./css/PRODUCT.css">
 </head>
 
@@ -64,6 +65,21 @@
             <li class="item2"></li>
             <li class="item3"></li>
         </ul>
+
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../img/PRODUCT/pr-ad.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="../img/PRODUCT/pr-ad1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="../img/PRODUCT/pr-ad2.jpg" alt=""></div>
+                
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
     </div>
 
     <!----- Product1 嚴選限定 ----->
@@ -223,6 +239,20 @@
     
         </div>
     </div>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'progressbar',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
 </body>
 
 </html>

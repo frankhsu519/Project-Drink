@@ -8,21 +8,25 @@ body {
   /* font-size: 30px; */
   font-family: Arial;
   /* background-color: #ffe893; */
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
+}
+
+img{
+  max-width: 100%;
 }
 /*----- banner -----*/
 .banner ul {
   width: 1200px;
   height: 300px;
-  margin: 0 auto;
   display: flex;
 }
 
 .banner li {
   background-size: cover;
   background-position: center center;
-  transition: 0.5s;
+  transition: .5s;
 }
 
 .item1 {
@@ -42,6 +46,77 @@ body {
 
 .banner li:hover {
   flex-grow: 1.5;
+}
+
+.swiper-container{
+  display: none;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .banner ul{
+    width: 972px;
+    border: 1px solid;
+  }
+
+  .item1{
+    background-position-x: -50px !important;
+  }
+
+  .item3{
+    background-position-x: -45px !important;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .banner ul{
+    width: 748px;
+    border: 1px solid red;
+  }
+
+  .item1{
+    background-position-x: -50px !important;
+  }
+
+  .item3{
+    background-position-x: -25x !important;
+  }
+  
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+  .banner ul{
+    display: none;
+  }
+
+
+
+  .swiper-container{
+    display: block;
+    width: 556px;
+    height: 300px;
+  }
+  
+
+ 
+  
+}
+
+
+@media screen and (max-width: 575px) {
+  .banner ul{
+    display: none;
+  }
+
+
+
+  .swiper-container{
+    display: block;
+    width: 481px;
+    height: 300px;
+  }
+  
 }
 
 /*----- 限定專區 -----*/
@@ -205,3 +280,4 @@ body {
   width: 100%;
   display: block;
 }
+

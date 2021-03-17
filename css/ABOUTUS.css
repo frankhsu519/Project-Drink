@@ -83,7 +83,7 @@ body {
 
 @media screen and (max-width: 575px) {
   .top {
-    width: 481px;
+    width: 535px;
     background-position-x: -100px;
   }
 }
@@ -399,12 +399,12 @@ body {
 
 @media screen and (max-width: 575px) {
   .out {
-    width: 481px;
+    width: 535px;
   }
   /* 態度 & 茶葉 RWD */
   .att,
   .leaf {
-    width: 481px;
+    width: 535px;
     flex-wrap: wrap-reverse;
   }
 
@@ -430,7 +430,7 @@ body {
   /* milk & Brownsugar */
   .milk,
   .Brownsugar {
-    width: 481px;
+    width: 535px;
     flex-wrap: wrap;
   }
 
