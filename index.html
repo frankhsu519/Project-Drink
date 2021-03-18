@@ -11,11 +11,12 @@
         crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-
+<div class="wrapper">
     
     <!----- Header ----->
     <div class="nav">
@@ -34,30 +35,18 @@
     </div>
 
     <!----- banner ----->
-    <div class="banner-block">
-        <ul class="slides">
-
-            <input type="radio" id="ctrl-1" name="control" checked>
-            <input type="radio" id="ctrl-2" name="control">
-            <input type="radio" id="ctrl-3" name="control">
-
-
-            <li class="slide">
-                <img src="./img/main/mainBanner1.jpg" alt="">
-            </li>
-            <li class="slide">
-                <img src="./img/main/mainBanner2.jpg" alt="">
-            </li>
-            <li class="slide">
-                <img src="./img/main/mainBanner3.jpg" alt="">
-            </li>
-
-            <div class="ctrl-visible">
-                <label for="ctrl-1"></label>
-                <label for="ctrl-2"></label>
-                <label for="ctrl-3"></label>
-            </div>
-        </ul>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/main/mainBanner1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./img/main/mainBanner2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./img/main/mainBanner3.jpg" alt=""></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
     </div>
 
     <!----- News ----->
@@ -143,6 +132,29 @@
 
         </div>
     </div>
+</div>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+
+
 </body>
 
 </html>
