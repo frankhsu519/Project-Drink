@@ -6,37 +6,35 @@
 
 body {
   font-family: Arial;
- 
 }
 
-.wrapper{
+.wrapper {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   /* border: 1px solid purple; */
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px){
-    .wrapper{
-        width: 960px;
-    }  
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .wrapper {
+    width: 960px;
+  }
 }
-@media screen and (min-width: 768px) and (max-width: 991px){
-    .wrapper{
-        width: 720px;
-    }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .wrapper {
+    width: 720px;
+  }
 }
-@media screen and (min-width: 576px) and (max-width: 767px){
-    .wrapper{
-        width: 540px;
-        /* border: 5px solid orange; */
-    }
-}   
-@media screen and (max-width: 576px){
-    .wrapper{
-        width: 100%;
-      
-    }
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .wrapper {
+    width: 540px;
+    /* border: 5px solid orange; */
+  }
+}
+@media screen and (max-width: 575px) {
+  .wrapper {
+    width: 100%;
+  }
 }
 
 .line {
@@ -44,7 +42,6 @@ body {
   width: 1000px;
   border: 0.5px solid white;
   margin: 30px auto;
-  
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -111,7 +108,6 @@ body {
   }
 }
 
-
 .out {
   background-color: #ffe893;
 }
@@ -160,7 +156,7 @@ body {
   margin: auto;
   line-height: 1.8;
   font-size: 22px;
-  
+
   /* border: 1px solid red; */
 }
 
@@ -260,7 +256,7 @@ body {
   margin: auto;
   line-height: 1.8;
   font-size: 22px;
-  
+
   /* border: 1px solid red; */
 }
 
@@ -323,100 +319,148 @@ body {
     width: 960px;
     /* border: 1px solid red; */
   }
-  .att,.milk,.leaf,.Brownsugar{
+  .att,
+  .milk,
+  .leaf,
+  .Brownsugar {
     width: 960px;
     /* border: 1px solid black; */
   }
 
-  .att-left,.milk-left,.leaf-left,.Brownsugar-left{
+  .att-left,
+  .milk-left,
+  .leaf-left,
+  .Brownsugar-left {
     width: 480px;
     /* border: 1px solid red; */
   }
-  .att-right,.milk-right,.leaf-right,.Brownsugar-right{
+  .att-right,
+  .milk-right,
+  .leaf-right,
+  .Brownsugar-right {
     width: 480px;
     /* border: 1px solid red; */
   }
-  .att-right h1,.milk-right h1,.leaf-right h1,.Brownsugar-right h1{
+  .att-right h1,
+  .milk-right h1,
+  .leaf-right h1,
+  .Brownsugar-right h1 {
     width: 460px;
     font-size: 30px;
   }
 
-  .att-right p,.milk-right p,.leaf-right p,.Brownsugar-right p{
+  .att-right p,
+  .milk-right p,
+  .leaf-right p,
+  .Brownsugar-right p {
     width: 460px;
   }
 }
-
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .out {
     width: 720px;
     /* border: 1px solid red; */
   }
-  .att,.milk,.leaf,.Brownsugar{
+  .att,
+  .milk,
+  .leaf,
+  .Brownsugar {
     width: 720px;
     /* border: 1px solid black; */
   }
 
-  .att-left,.milk-left,.leaf-left,.Brownsugar-left{
+  .att-left,
+  .milk-left,
+  .leaf-left,
+  .Brownsugar-left {
     width: 360px;
     /* border: 1px solid red; */
   }
 
-  .att-left img,.milk-left img,.leaf-left img,.Brownsugar-left img{
+  .att-left img,
+  .milk-left img,
+  .leaf-left img,
+  .Brownsugar-left img {
     width: 95%;
   }
 
-  .att-right,.milk-right,.leaf-right,.Brownsugar-right{
+  .att-right,
+  .milk-right,
+  .leaf-right,
+  .Brownsugar-right {
     width: 360px;
     /* border: 1px solid red; */
   }
-  .att-right h1,.milk-right h1,.leaf-right h1,.Brownsugar-right h1{
+  .att-right h1,
+  .milk-right h1,
+  .leaf-right h1,
+  .Brownsugar-right h1 {
     width: 340px;
     font-size: 22px;
     margin-bottom: 25px;
   }
 
-  .att-right p,.milk-right p,.leaf-right p,.Brownsugar-right p{
+  .att-right p,
+  .milk-right p,
+  .leaf-right p,
+  .Brownsugar-right p {
     width: 340px;
     font-size: 20px;
     line-height: 1.6;
   }
 }
 
-
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .out {
     width: 540px;
     /* border: 1px solid red; */
   }
-  .att,.milk,.leaf,.Brownsugar{
+  .att,
+  .milk,
+  .leaf,
+  .Brownsugar {
     width: 540px;
     /* border: 1px solid black; */
   }
 
-  .att,.leaf{
+  .att,
+  .leaf {
     flex-wrap: wrap-reverse;
   }
 
-  .att-left,.milk-left,.leaf-left,.Brownsugar-left{
+  .att-left,
+  .milk-left,
+  .leaf-left,
+  .Brownsugar-left {
     width: 540px;
     /* border: 1px solid red; */
   }
-  .att-right,.milk-right,.leaf-right,.Brownsugar-right{
+  .att-right,
+  .milk-right,
+  .leaf-right,
+  .Brownsugar-right {
     width: 540px;
     /* border: 1px solid red; */
   }
-  .att-right h1,.milk-right h1,.leaf-right h1,.Brownsugar-right h1{
+  .att-right h1,
+  .milk-right h1,
+  .leaf-right h1,
+  .Brownsugar-right h1 {
     width: 520px;
     font-size: 30px;
   }
 
-  .att-right p,.milk-right p,.leaf-right p,.Brownsugar-right p{
+  .att-right p,
+  .milk-right p,
+  .leaf-right p,
+  .Brownsugar-right p {
     width: 520px;
     /* border: 1px solid red; */
   }
 
-  .milk-right p,.Brownsugar-right p{
+  .milk-right p,
+  .Brownsugar-right p {
     padding-left: 0;
   }
 }
@@ -424,34 +468,50 @@ body {
 @media screen and (max-width: 575px) {
   .out {
     width: 100%;
-    
   }
-  .att,.milk,.leaf,.Brownsugar{
+  .att,
+  .milk,
+  .leaf,
+  .Brownsugar {
     width: 100%;
     /* border: 1px solid black; */
   }
 
-  .att,.leaf{
+  .att,
+  .leaf {
     flex-wrap: wrap-reverse;
   }
 
-  .att-left,.milk-left,.leaf-left,.Brownsugar-left{
+  .att-left,
+  .milk-left,
+  .leaf-left,
+  .Brownsugar-left {
     width: 100%;
     /* border: 1px solid red; */
   }
-  .att-right,.milk-right,.leaf-right,.Brownsugar-right{
+  .att-right,
+  .milk-right,
+  .leaf-right,
+  .Brownsugar-right {
     width: 100%x;
     /* border: 1px solid red; */
   }
-  .att-right h1,.milk-right h1,.leaf-right h1,.Brownsugar-right h1{
+  .att-right h1,
+  .milk-right h1,
+  .leaf-right h1,
+  .Brownsugar-right h1 {
     width: 100%;
     font-size: 35px;
   }
 
-  .att-right p,.milk-right p,.leaf-right p,.Brownsugar-right p{
+  .att-right p,
+  .milk-right p,
+  .leaf-right p,
+  .Brownsugar-right p {
     width: 100%;
   }
-  .milk-right p,.Brownsugar-right p{
+  .milk-right p,
+  .Brownsugar-right p {
     padding-left: 0;
   }
 }
