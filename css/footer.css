@@ -11,29 +11,29 @@
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .footer {
-    width: 972px;
+    width: 960px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .footer {
-    width: 748px;
+    width: 720px;
   }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .footer {
-    width: 556px;
+    width: 540px;
     flex-wrap: wrap;
   }
   .footer-icon ul {
-    margin-right: 230px !important;
+    /* margin-right: 230px !important; */
   }
 }
 
 @media screen and (max-width: 575px) {
   .footer {
-    width: 535px;
+    width: 100%;
     flex-wrap: wrap;
   }
   .footer-text li {

@@ -13,7 +13,7 @@ body {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px){
@@ -44,7 +44,7 @@ body {
   width: 1000px;
   border: 0.5px solid white;
   margin: 30px auto;
-  background-color: #ffe893;
+  
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -93,33 +93,34 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .top {
-    width: 748px;
+    width: 720px;
   }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .top {
-    width: 556px;
+    width: 540px;
     background-position-x: -100px;
   }
 }
 
 @media screen and (max-width: 575px) {
   .top {
-    width: 535px;
+    width: 100%;
     background-position-x: -100px;
   }
 }
 
-/* 服務態度 */
 
 .out {
   background-color: #ffe893;
 }
+/* 服務態度 */
 
 .att {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .att-left {
@@ -128,28 +129,39 @@ body {
 }
 
 .att-left img {
+  display: block;
+  margin: auto;
   margin-top: 60px;
-  width: 70%;
-  padding-left: 30px;
+  width: 450px;
+  /* border: 1px solid;  */
 }
 
 .att-right {
   width: 600px;
   color: black;
   margin-top: 60px;
+  /* border: 1px solid green; */
 }
 
 .att-right h1 {
+  width: 580px;
+  display: block;
+  margin: auto;
+  text-align: center;
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 40px;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  /* border: 1px solid red; */
 }
 .att-right p {
-  width: 550px;
-  line-height: 1.2;
+  width: 580px;
+  display: block;
+  margin: auto;
+  line-height: 1.8;
   font-size: 22px;
-  padding-left: 15px;
-  padding-top: 15px;
+  
+  /* border: 1px solid red; */
 }
 
 /* milk */
@@ -157,38 +169,50 @@ body {
 .milk {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .milk-left {
   width: 600px;
   order: 2;
+  /* border: 1px solid red; */
 }
 
 .milk-left img {
-  margin-top: 30px;
-  width: 60%;
-  margin-left: 100px;
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  width: 450px;
   border-radius: 50%;
+  /* border: 1px solid;  */
 }
 
 .milk-right {
   width: 600px;
   color: black;
   margin-top: 60px;
+  /* border: 1px solid green; */
 }
 
 .milk-right h1 {
+  width: 580px;
+  display: block;
+  margin: auto;
+  text-align: center;
   font-size: 36px;
   font-weight: bold;
+  margin-top: 10px;
   margin-bottom: 40px;
-  padding-left: 30px;
+  /* border: 1px solid red; */
 }
 .milk-right p {
-  width: 550px;
+  width: 580px;
+  display: block;
+  margin: auto;
+  line-height: 1.8;
   font-size: 22px;
-  line-height: 1.2;
-  padding-left: 30px;
-  padding-top: 15px;
+  padding-left: 50px;
+  /* border: 1px solid red; */
 }
 
 /* leaf */
@@ -196,6 +220,7 @@ body {
 .leaf {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .leaf-left {
@@ -204,29 +229,39 @@ body {
 }
 
 .leaf-left img {
+  display: block;
+  margin: auto;
   margin-top: 60px;
-  width: 70%;
-  padding-left: 30px;
-  /* border-radius: 65% */
+  width: 450px;
+  /* border: 1px solid;  */
 }
 
 .leaf-right {
   width: 600px;
   color: black;
   margin-top: 60px;
+  /* border: 1px solid green; */
 }
 
 .leaf-right h1 {
+  width: 580px;
+  display: block;
+  margin: auto;
+  text-align: center;
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 40px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  /* border: 1px solid red; */
 }
 .leaf-right p {
-  width: 550px;
+  width: 580px;
+  display: block;
+  margin: auto;
+  line-height: 1.8;
   font-size: 22px;
-  line-height: 1.2;
-  padding-left: 15px;
-  padding-top: 15px;
+  
+  /* border: 1px solid red; */
 }
 
 /* Brownsugar */
@@ -234,246 +269,189 @@ body {
 .Brownsugar {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
 }
 
 .Brownsugar-left {
   width: 600px;
   order: 2;
+  /* border: 1px solid red; */
 }
 
 .Brownsugar-left img {
-  margin-top: 30px;
-  width: 60%;
-  margin-left: 100px;
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  width: 450px;
   border-radius: 50%;
+  /* border: 1px solid;  */
 }
 
 .Brownsugar-right {
   width: 600px;
   color: black;
   margin-top: 60px;
-  margin-bottom: 60px;
+  /* border: 1px solid green; */
 }
 
 .Brownsugar-right h1 {
+  width: 580px;
+  display: block;
+  margin: auto;
+  text-align: center;
   font-size: 36px;
   font-weight: bold;
+  margin-top: 10px;
   margin-bottom: 40px;
-  padding-left: 30px;
+  /* border: 1px solid red; */
 }
 .Brownsugar-right p {
-  width: 550px;
+  width: 580px;
+  display: block;
+  margin: auto;
+  line-height: 1.8;
   font-size: 22px;
-  line-height: 1.2;
-  padding-left: 30px;
-  padding-top: 15px;
+  padding-left: 50px;
+  /* border: 1px solid red; */
 }
 
 /* RWD Block */
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .out {
-    width: 972px;
+    width: 960px;
+    /* border: 1px solid red; */
   }
-  /* 態度 & 茶葉 RWD */
-  .att,
-  .leaf {
-    width: 972px;
-    /* border: 1px solid green; */
-  }
-
-  .att-left,
-  .leaf-left {
-    width: 300px;
-    /* border: 1px solid purple; */
+  .att,.milk,.leaf,.Brownsugar{
+    width: 960px;
+    /* border: 1px solid black; */
   }
 
-  .att-left img,
-  .leaf-left img {
-    width: 300px !important;
+  .att-left,.milk-left,.leaf-left,.Brownsugar-left{
+    width: 480px;
+    /* border: 1px solid red; */
   }
-  /* milk & Brownsugar*/
-  .milk,
-  .Brownsugar {
-    width: 972px;
-    /* border: 1px solid green; */
+  .att-right,.milk-right,.leaf-right,.Brownsugar-right{
+    width: 480px;
+    /* border: 1px solid red; */
   }
-
-  .milk-left,
-  .Brownsugar-left {
-    width: 300px;
-    /* border: 1px solid purple; */
+  .att-right h1,.milk-right h1,.leaf-right h1,.Brownsugar-right h1{
+    width: 460px;
+    font-size: 30px;
   }
 
-  .milk-left img,
-  .Brownsugar-left img {
-    width: 280px !important;
-    margin-left: 10px !important;
+  .att-right p,.milk-right p,.leaf-right p,.Brownsugar-right p{
+    width: 460px;
   }
 }
+
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .out {
-    width: 748px;
-  }
-  /* 態度 & 茶葉 RWD */
-  .att,
-  .leaf {
-    width: 748px;
-    /* border: 1px solid green; */
-  }
-  .att-left,
-  .leaf-left {
-    width: 300px;
+    width: 720px;
     /* border: 1px solid red; */
   }
-  .att-left img,
-  .leaf-left img {
-    width: 280px !important;
-  }
-  .att-right,
-  .leaf-right {
-    width: 468px !important;
-    /* border: 1px solid; */
+  .att,.milk,.leaf,.Brownsugar{
+    width: 720px;
+    /* border: 1px solid black; */
   }
 
-  .att-right h1,
-  .leaf-right h1 {
-    font-size: 30px !important;
-  }
-
-  .att-right p,
-  .leaf-right p {
-    width: 450px !important;
-  }
-
-  /* milk & Brownsugar */
-  .milk,
-  .Brownsugar {
-    width: 748px;
-    /* border: 1px solid green; */
-  }
-  .milk-left,
-  .Brownsugar-left {
-    width: 300px;
+  .att-left,.milk-left,.leaf-left,.Brownsugar-left{
+    width: 360px;
     /* border: 1px solid red; */
   }
-  .milk-left img,
-  .Brownsugar-left img {
-    width: 280px !important;
-    margin-left: 10px !important;
-    margin-top: 50px !important;
-  }
-  .milk-right,
-  .Brownsugar-right {
-    width: 468px !important;
-    /* border: 1px solid; */
+
+  .att-left img,.milk-left img,.leaf-left img,.Brownsugar-left img{
+    width: 95%;
   }
 
-  .milk-right h1,
-  .Brownsugar-right h1 {
-    font-size: 30px !important;
+  .att-right,.milk-right,.leaf-right,.Brownsugar-right{
+    width: 360px;
+    /* border: 1px solid red; */
+  }
+  .att-right h1,.milk-right h1,.leaf-right h1,.Brownsugar-right h1{
+    width: 340px;
+    font-size: 22px;
+    margin-bottom: 25px;
   }
 
-  .milk-right p,
-  .Brownsugar-right p {
-    width: 450px !important;
+  .att-right p,.milk-right p,.leaf-right p,.Brownsugar-right p{
+    width: 340px;
+    font-size: 20px;
+    line-height: 1.6;
   }
 }
 
+
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .out {
-    width: 556px;
+    width: 540px;
+    /* border: 1px solid red; */
   }
-  /* 態度 & 茶葉 RWD */
-  .att,
-  .leaf {
-    width: 556px;
-    flex-wrap: wrap;
-  }
-  .att-right h1,
-  .leaf-right h1 {
-    text-align: center;
-  }
-  .att-left img,
-  .leaf-left img {
-    width: 350px !important;
-    /* border: 1px solid; */
-    margin-left: 100px;
+  .att,.milk,.leaf,.Brownsugar{
+    width: 540px;
+    /* border: 1px solid black; */
   }
 
-  /* milk & Brownsugar */
-  .milk,
-  .Brownsugar {
-    width: 556px;
+  .att,.leaf{
     flex-wrap: wrap-reverse;
   }
-  .milk-right h1,
-  .Brownsugar-right h1 {
-    text-align: center;
+
+  .att-left,.milk-left,.leaf-left,.Brownsugar-left{
+    width: 540px;
+    /* border: 1px solid red; */
   }
-  .milk-left img,
-  .Brownsugar-left img {
-    width: 350px !important;
-    /* border: 1px solid; */
-    margin-left: 100px;
+  .att-right,.milk-right,.leaf-right,.Brownsugar-right{
+    width: 540px;
+    /* border: 1px solid red; */
+  }
+  .att-right h1,.milk-right h1,.leaf-right h1,.Brownsugar-right h1{
+    width: 520px;
+    font-size: 30px;
+  }
+
+  .att-right p,.milk-right p,.leaf-right p,.Brownsugar-right p{
+    width: 520px;
+    /* border: 1px solid red; */
+  }
+
+  .milk-right p,.Brownsugar-right p{
+    padding-left: 0;
   }
 }
 
 @media screen and (max-width: 575px) {
   .out {
-    width: 535px;
+    width: 100%;
+    
   }
-  /* 態度 & 茶葉 RWD */
-  .att,
-  .leaf {
-    width: 535px;
+  .att,.milk,.leaf,.Brownsugar{
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+
+  .att,.leaf{
     flex-wrap: wrap-reverse;
   }
 
-  .att-right h1,
-  .leaf-right h1 {
-    width: 480px;
-    font-size: 30px !important;
-    /* border: 1px solid; */
-    text-align: center;
+  .att-left,.milk-left,.leaf-left,.Brownsugar-left{
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .att-right,.milk-right,.leaf-right,.Brownsugar-right{
+    width: 100%x;
+    /* border: 1px solid red; */
+  }
+  .att-right h1,.milk-right h1,.leaf-right h1,.Brownsugar-right h1{
+    width: 100%;
+    font-size: 35px;
   }
 
-  .att-right p,
-  .leaf-right p {
-    width: 470px !important;
-    /* border: 1px solid; */
+  .att-right p,.milk-right p,.leaf-right p,.Brownsugar-right p{
+    width: 100%;
   }
-
-  .att-left img,
-  .leaf-left img {
-    margin-left: 60px;
-  }
-
-  /* milk & Brownsugar */
-  .milk,
-  .Brownsugar {
-    width: 535px;
-    flex-wrap: wrap;
-  }
-
-  .milk-right h1,
-  .Brownsugar-right h1 {
-    width: 480px;
-    font-size: 30px !important;
-    /* border: 1px solid; */
-    text-align: center;
-  }
-
-  .milk-right p,
-  .Brownsugar-right p {
-    width: 470px !important;
-    /* border: 1px solid; */
-  }
-
-  .milk-left img,
-  .Brownsugar-left img {
-    margin-left: 110px;
-    margin-bottom: 30px;
+  .milk-right p,.Brownsugar-right p{
+    padding-left: 0;
   }
 }

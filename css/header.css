@@ -47,7 +47,6 @@
 
 
 /* 漢堡1 */
-/*
 .hamburger-out {
   display: none;
 }
@@ -62,7 +61,7 @@
   height: 40px;
   position: relative;
   top: 60px;
-  left: 350px;
+  left: 310px;
   z-index: 2;
 }
 
@@ -107,7 +106,8 @@
   height: 310px;
   position: absolute;
   top: 120px;
-  left: 0px;
+  left: 80px;
+
   transform: scaleY(0);
   transition: transform 0.3s ease-in-out;
   transform-origin: 50% 0;
@@ -118,7 +118,7 @@
   width: 100%;
   display: block;
   text-align: center;
-  border: 1px solid;
+  
 }
 
 .nav-item li {
@@ -139,11 +139,11 @@
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .hamburger-out {
     display: block;
-   
-   
   }
-
-
+  .nav-item {
+    width: 540px;
+    left: 29px;
+  }
   
 }
 
@@ -156,13 +156,13 @@
     left: 270px;
   }
   .nav-item {
-    width: 535px;
+    width: 100%;
+    left: 0;
   }
 
-  .nav-item ul {
-    width: 535px;
-  }
+  
 }
 
-*/
+
+
 
