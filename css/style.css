@@ -393,4 +393,8 @@ body {
     left: 437px;
     top: 1205px;
   }
+
+  .food h1 {
+    line-height: 1.6;
+  }
 }
