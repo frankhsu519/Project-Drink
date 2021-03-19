@@ -8,8 +8,36 @@ body {
   /* font-size: 30px; */
   font-family: Arial;
   /* background-color: #ffe893; */
-  width: 1200px;
+}
+
+.wrapper {
+  max-width: 1200px;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .wrapper {
+    width: 960px;
+    /* border: 5px solid black; */
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .wrapper {
+    width: 720px;
+    /* border: 1px solid red; */
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .wrapper {
+    width: 540px;
+    /* border: 5px solid orange; */
+  }
+}
+@media screen and (max-width: 575px) {
+  .wrapper {
+    width: 100%;
+    /* border: 5px solid red; */
+  }
 }
 .top {
   color: #a9a9a9;
@@ -31,15 +59,38 @@ body {
 }
 .line {
   display: block;
-  width: 1100px;
+  width: 1000px;
   border: 0.5px dashed red;
   margin: 0 auto;
 }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .line {
+    width: 900px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .line {
+    width: 640px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .line {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .line {
+    width: 430px;
+  }
+}
+
 .main {
   background-color: #ffe893;
   display: flex;
-  width: 1200px;
-  /* border: 1px solid green; */
 }
 .left {
   width: 600px;
