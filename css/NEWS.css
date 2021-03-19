@@ -81,7 +81,6 @@ body {
 .down-news {
   /* background-color: red; */
   /* border: 2px solid green; */
-  position: relative;
 }
 
 .down-news img {
@@ -98,6 +97,7 @@ body {
 .down-news li {
   width: 280px;
   margin: 10px 10px 10px 10px;
+  position: relative;
 }
 
 .down-news a {
@@ -120,36 +120,36 @@ body {
 }
 .news1 a {
   position: absolute;
-  left: 180px;
-  top: 280px;
+  right: 0px;
+  bottom: 12px;
 }
 
 .news2 a {
   position: absolute;
-  left: 480px;
-  top: 280px;
+  right: 0px;
+  bottom: 12px;
 }
 
 .news3 a {
   position: absolute;
-  left: 780px;
-  top: 280px;
+  right: 0px;
+  bottom: 12px;
 }
 
 .news4 a {
   position: absolute;
-  left: 1080px;
-  top: 280px;
+  right: 0px;
+  bottom: 12px;
 }
 
 .news5 a {
   position: absolute;
-  left: 180px;
-  top: 603px;
+  right: 0px;
+  bottom: 12px;
 }
 
 .news6 a {
   position: absolute;
-  left: 480px;
-  top: 603px;
+  right: 0px;
+  bottom: 12px;
 }

@@ -8,17 +8,41 @@ body {
   /* font-size: 30px; */
   font-family: Arial;
   /* background-color: #ffe893; */
+}
+
+.wrapper {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }
 
-img{
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .wrapper {
+    width: 960px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .wrapper {
+    width: 720px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .wrapper {
+    width: 540px;
+    /* border: 5px solid orange; */
+  }
+}
+@media screen and (max-width: 575px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+img {
   max-width: 100%;
 }
 /*----- banner -----*/
 .banner ul {
-  width: 1200px;
+  /* width: 1200px; */
   height: 300px;
   display: flex;
 }
@@ -26,7 +50,7 @@ img{
 .banner li {
   background-size: cover;
   background-position: center center;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .item1 {
@@ -48,75 +72,60 @@ img{
   flex-grow: 1.5;
 }
 
-.swiper-container{
+.swiper-container {
   display: none;
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  .banner ul{
-    width: 972px;
+  .banner ul {
+    width: 960px;
     border: 1px solid;
   }
 
-  .item1{
+  .item1 {
     background-position-x: -50px !important;
   }
 
-  .item3{
+  .item3 {
     background-position-x: -45px !important;
   }
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .banner ul{
-    width: 748px;
+  .banner ul {
+    width: 720px;
     border: 1px solid red;
   }
 
-  .item1{
+  .item1 {
     background-position-x: -50px !important;
   }
 
-  .item3{
+  .item3 {
     background-position-x: -25x !important;
   }
-  
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
-
-  .banner ul{
+  .banner ul {
     display: none;
   }
 
-
-
-  .swiper-container{
+  .swiper-container {
     display: block;
-    width: 556px;
-    height: 300px;
+    width: 540px;
   }
-  
-
- 
-  
 }
 
-
 @media screen and (max-width: 575px) {
-  .banner ul{
+  .banner ul {
     display: none;
   }
 
-
-
-  .swiper-container{
+  .swiper-container {
     display: block;
-    width: 481px;
-    height: 300px;
+    width: 100%;
   }
-  
 }
 
 /*----- 限定專區 -----*/
@@ -280,4 +289,3 @@ img{
   width: 100%;
   display: block;
 }
-

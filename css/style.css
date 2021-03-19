@@ -225,13 +225,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  position: relative;
   /* border: 1px solid green; */
 }
 
 .food li {
   /* width: 350px; */
   /* border: 1px solid red; */
+  position: relative;
 }
 
 .food img {
@@ -261,7 +261,7 @@ body {
   border: 3px solid white;
   color: white;
   position: absolute;
-  left: 275px;
+  left: 250px;
   top: 190px;
 }
 .cr2 {
@@ -273,7 +273,7 @@ body {
   border: 3px solid #10e93c;
   color: #10e93c;
   position: absolute;
-  left: 675px;
+  left: 250px;
   top: 190px;
 }
 
@@ -286,7 +286,7 @@ body {
   border: 3px solid #7a554a;
   color: #7a554a;
   position: absolute;
-  right: 25px;
+  left: 250px;
   top: 190px;
 }
 
@@ -307,17 +307,17 @@ body {
   }
 
   .cr1 {
-    left: 210px;
+    left: 200px;
     top: 150px;
   }
 
   .cr2 {
-    left: 530px;
+    left: 200px;
     top: 150px;
   }
 
   .cr3 {
-    right: 8px;
+    left: 200px;
     top: 150px;
   }
 }
@@ -332,17 +332,17 @@ body {
   }
 
   .cr1 {
-    left: 135px;
+    left: 130px;
     top: 110px;
   }
 
   .cr2 {
-    left: 375px;
+    left: 130px;
     top: 110px;
   }
 
   .cr3 {
-    right: 5px;
+    left: 130px;
     top: 110px;
   }
 }
@@ -365,12 +365,12 @@ body {
 
   .cr2 {
     left: 440px;
-    top: 765px;
+    top: 315px;
   }
 
   .cr3 {
     left: 440px;
-    top: 1225px;
+    top: 315px;
   }
 }
 
@@ -386,12 +386,12 @@ body {
 
   .cr2 {
     left: 437px;
-    top: 755px;
+    top: 315px;
   }
 
   .cr3 {
     left: 437px;
-    top: 1205px;
+    top: 315px;
   }
 
   .food h1 {
