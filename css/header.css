@@ -47,6 +47,7 @@
 /* 漢堡1 */
 .hamburger-out {
   display: none;
+  position: relative;
 }
 
 #toggler {
@@ -103,8 +104,8 @@
   width: 540px;
   height: 310px;
   position: absolute;
-  top: 120px;
-  left: 80px;
+  top: 140px;
+  left: -140px;
 
   transform: scaleY(0);
   transition: transform 0.3s ease-in-out;
@@ -137,22 +138,10 @@
   .hamburger-out {
     display: block;
   }
-  .nav-item {
-    width: 540px;
-    left: 29px;
-  }
 }
 
 @media screen and (max-width: 575px) {
   .hamburger-out {
     display: block;
-  }
-
-  .hamburger {
-    left: 270px;
-  }
-  .nav-item {
-    width: 100%;
-    left: 0;
   }
 }

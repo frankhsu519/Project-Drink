@@ -73,7 +73,7 @@ img {
 }
 
 .swiper-container {
-  display: none;
+  width: 100%;
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -88,6 +88,10 @@ img {
 
   .item3 {
     background-position-x: -45px !important;
+  }
+
+  .swiper-container {
+    display: none;
   }
 }
 
@@ -104,27 +108,21 @@ img {
   .item3 {
     background-position-x: -25x !important;
   }
+
+  .swiper-container {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .banner ul {
     display: none;
   }
-
-  .swiper-container {
-    display: block;
-    width: 540px;
-  }
 }
 
 @media screen and (max-width: 575px) {
   .banner ul {
     display: none;
-  }
-
-  .swiper-container {
-    display: block;
-    width: 100%;
   }
 }
 
