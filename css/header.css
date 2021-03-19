@@ -10,7 +10,7 @@
 
 .nav ul {
   display: flex;
-  width: 1060px;
+  width: 100%;
   align-items: center;
   justify-content: space-around;
   /* border: 1px solid red; */
@@ -20,14 +20,12 @@
   #normal {
     display: none;
   }
-  
 }
 
 @media screen and (max-width: 575px) {
   #normal {
     display: none;
   }
-  
 }
 
 .nav li {
@@ -44,7 +42,6 @@
   background-color: #ffe893;
   transition-duration: 0.5s;
 }
-
 
 /* 漢堡1 */
 .hamburger-out {
@@ -118,7 +115,6 @@
   width: 100%;
   display: block;
   text-align: center;
-  
 }
 
 .nav-item li {
@@ -144,7 +140,6 @@
     width: 540px;
     left: 29px;
   }
-  
 }
 
 @media screen and (max-width: 575px) {
@@ -159,10 +154,4 @@
     width: 100%;
     left: 0;
   }
-
-  
 }
-
-
-
-
