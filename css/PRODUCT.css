@@ -189,36 +189,33 @@ img {
 .bs-out {
   display: flex;
   margin: 30px 0;
+
+  border: 1px solid red;
 }
 
 .bs-left {
   width: 830px;
   color: #ffe893;
-  padding-left: 20px;
-  padding-top: 20px;
   background-color: #88684e;
 }
 
 .bs-left h1 {
+  margin-top: 30px;
+  margin-left: 30px;
   margin-bottom: 20px;
   font-size: 28px;
-}
-.bs-card-out {
-  display: flex;
-  align-items: center;
 }
 
 .bs-card ul {
   display: flex;
   color: white;
-  margin: 40px 50px;
+  margin: 30px auto;
+  width: 350px;
 }
 
 .bs-card li {
-  width: 300px;
   border: 3px solid white;
   background-color: #d3b196;
-  margin: 0 15px;
   padding: 20px 10px;
   font-size: 20px;
   line-height: 2;
@@ -226,15 +223,16 @@ img {
 .bs-card i {
   line-height: 1.6;
 }
-.bs-right ul {
-  display: flex;
+
+.bs-right {
+  width: 369px;
+  height: 369px;
+
+  border: 1px solid red;
 }
-.bs-right li {
-  width: 370px;
-}
+
 .bs-right img {
   width: 100%;
-  display: block;
 }
 
 /*----- 奶茶專區 -----*/
