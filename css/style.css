@@ -229,8 +229,6 @@ body {
 }
 
 .food li {
-  /* width: 350px; */
-  /* border: 1px solid red; */
   position: relative;
 }
 
@@ -380,8 +378,9 @@ body {
   }
 
   .cr1 {
-    left: 437px;
-    top: 315px;
+    left: 385px; /* 不用livesever 看 */
+    top: 275px;
+    /* border: 1px solid red; */
   }
 
   .cr2 {
