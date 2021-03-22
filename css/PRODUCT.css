@@ -183,7 +183,7 @@ img {
   width: 369px;
   /* height: 369px; */
 
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -211,7 +211,7 @@ img {
   .lim-out {
     flex-wrap: wrap;
 
-    border: 3px solid red;
+    /* border: 3px solid red; */
   }
   .lim-right {
     width: 540px;
@@ -278,11 +278,45 @@ img {
   width: 369px;
   height: 369px;
 
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
-.bs-right img {
-  width: 100%;
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .bs-left {
+    width: 591px;
+  }
+
+  .bs-card ul {
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .bs-left {
+    width: 351px;
+  }
+
+  .bs-card ul {
+    width: 300px;
+    border: 3px solid orange;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .bs-out {
+    flex-wrap: wrap;
+
+    border: 3px solid red;
+  }
+
+  .bs-left {
+    width: 540px;
+    order: 2;
+  }
+
+  .bs-right {
+    width: 540px;
+  }
 }
 
 /*----- 奶茶專區 -----*/
@@ -337,4 +371,53 @@ img {
   height: 369px;
 
   border: 1px solid red;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .mk-left {
+    width: 591px;
+  }
+
+  .mk-card ul {
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .mk-left {
+    width: 351px;
+  }
+
+  .mk-card ul {
+    width: 300px;
+    border: 3px solid orange;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .mk-out {
+    flex-wrap: wrap;
+
+    /* border: 3px solid red; */
+  }
+  .mk-right {
+    width: 540px;
+  }
+  .mk-left {
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .mk-out {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .mk-right {
+    width: 537px;
+  }
+  .mk-left {
+    width: 537px;
+  }
 }
