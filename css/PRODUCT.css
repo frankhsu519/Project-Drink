@@ -210,12 +210,28 @@ img {
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .lim-out {
     flex-wrap: wrap;
+
+    border: 3px solid red;
   }
   .lim-right {
     width: 540px;
   }
   .lim-left {
     width: 540px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .lim-out {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .lim-right {
+    width: 537px;
+  }
+  .lim-left {
+    width: 537px;
   }
 }
 
