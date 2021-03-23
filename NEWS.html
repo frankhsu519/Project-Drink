@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link href="./vender/dist/hamburgers.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/nowfocus.css">
     <link rel="stylesheet" href="./css/NEWS.css">
 </head>
@@ -75,39 +76,39 @@
 
     </div>
     <!----- down-news ----->
-    <div class="down-news">
+    <div class="down-news" data-aos="fade-up" data-aos-duration="1000">
         <ul>
-            <li class='news1'>
+            <li class='news1'data-aos="fade-down" data-aos-delay="700" >
                 <img src="./img/NEWS/News-news2.jpg" alt="">
                 <a href="#">SEE MORE</a>
                 <h2>2021/03/14</h2>
             </li>
 
-            <li class='news2'>
+            <li class='news2'data-aos="fade-down" data-aos-delay="800">
                 <img src="./img/NEWS/News-news3.jpg" alt="">
                 <a href="#">SEE MORE</a>
                 <h2>2021/03/03</h2>
             </li>
 
-            <li class='news3'>
+            <li class='news3'data-aos="fade-down" data-aos-delay="900">
                 <img src="./img/NEWS/News-news4.jpg" alt="">
                 <a href="#">SEE MORE</a>
                 <h2>2021/02/28</h2>
             </li>
 
-            <li class='news4'>
+            <li class='news4'data-aos="fade-down" data-aos-delay="1000" >
                 <img src="./img/NEWS/News-news3.jpg" alt="">
                 <a href="#">SEE MORE</a>
                 <h2>2021/02/20</h2>
             </li>
 
-            <li class='news5'>
+            <li class='news5'data-aos="fade-down" data-aos-delay="1100">
                 <img src="./img/NEWS/News-news4.jpg" alt="">
                 <a href="#">SEE MORE</a>
                 <h2>2021/02/14</h2>
             </li>
 
-            <li class='news6'>
+            <li class='news6'data-aos="fade-down" data-aos-delay="1200">
                 <img src="./img/NEWS/News-news2.jpg" alt="">
                 <a href="#">SEE MORE</a>
                 <h2>2021/01/18</h2>
@@ -157,6 +158,11 @@
 
             hamburger.closest(".nav").querySelector(".nav-item").classList.toggle("-none");
         });
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 
 </body>
