@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link href="./vender/dist/hamburgers.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -31,36 +32,30 @@
             <li><a href="./PRODUCT.html">產品介紹</a></li>
             <li><a href="./CONTACTUS.html">聯絡我們</a></li>
         </ul>
-
+    
+    
         <!-- RWD  漢堡1-->
-        
-        <div class="hamburger-out">
-            <input type="checkbox" id="toggler">
-        
-            <label for="toggler">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-        
-        
-                </div>
-            </label>
-        
-            <div class="nav-item">
-                <ul>
-                    <li><a href="./NEWS.html">最新消息</a></li>
-                    <li><a href="./ABOUTUS.html">關於我們</a></li>
-                    <li><a href="./STORE.html">門市據點</a></li>
-                    <li><a href="./PRODUCT.html">產品介紹</a></li>
-                    <li><a href="./CONTACTUS.html">聯絡我們</a></li>
-                </ul>
-            </div>
-        
+    
+        <button class="hamburger hamburger--spring" type="button" id="hm">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+    
+    
+    
+        <div class="nav-item -none">
+            <ul>
+                <li><a href="./NEWS.html">最新消息</a></li>
+                <li><a href="./ABOUTUS.html">關於我們</a></li>
+                <li><a href="./STORE.html">門市據點</a></li>
+                <li><a href="./PRODUCT.html">產品介紹</a></li>
+                <li><a href="./CONTACTUS.html">聯絡我們</a></li>
+            </ul>
         </div>
-
+    
+    
     </div>
-
     <!----- banner ----->
     <!-- Swiper -->
     <div class="swiper-container">
@@ -182,6 +177,19 @@
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
+    });
+</script>
+
+<script>
+    // Look for .hamburger
+    var hamburger = document.querySelector(".hamburger");
+    // On click
+    hamburger.addEventListener("click", function () {
+        // Toggle class "is-active"
+        hamburger.classList.toggle("is-active");
+        // Do something else, like open/close menu
+
+        hamburger.closest(".nav").querySelector(".nav-item").classList.toggle("-none");
     });
 </script>
 
