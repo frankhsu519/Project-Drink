@@ -144,4 +144,9 @@
   .hamburger-out {
     display: block;
   }
+
+  .nav-item {
+    width: 556px;
+    /* width: 100%; */
+  }
 }

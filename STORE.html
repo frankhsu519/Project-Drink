@@ -16,24 +16,56 @@
 </head>
 
 <body>
+ <div class="wrapper"> 
     <!----- Header ----->
     <div class="nav">
         <div class="logo">
-            <a href="./index.html"><img src="img/logo/logo5.png" alt=""></a>
+            <a href="./index.html"><img src="./img/logo/logo5.png" alt=""></a>
         </div>
     
-        <ul>
+        <ul id="normal">
             <li><a href="./NEWS.html">最新消息</a></li>
             <li><a href="./ABOUTUS.html">關於我們</a></li>
             <li><a class="nowfocus" href="./STORE.html">門市據點</a></li>
             <li><a href="./PRODUCT.html">產品介紹</a></li>
             <li><a href="./CONTACTUS.html">聯絡我們</a></li>
         </ul>
+    
+    
+        <!-- RWD  漢堡1-->
+    
+        <div class="hamburger-out">
+            <input type="checkbox" id="toggler">
+    
+            <label for="toggler">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+    
+    
+                </div>
+            </label>
+    
+            <div class="nav-item">
+                <ul>
+                    <li><a href="./NEWS.html">最新消息</a></li>
+                    <li><a href="./ABOUTUS.html">關於我們</a></li>
+                    <li><a class="nowfocus" href="./STORE.html">門市據點</a></li>
+                    <li><a href="./PRODUCT.html">產品介紹</a></li>
+                    <li><a href="./CONTACTUS.html">聯絡我們</a></li>
+                </ul>
+            </div>
+    
+        </div>
+    
+    
+    
     </div>
 
-    <div class="test">
+    <!-- <div class="test">
         <a href="./STROE1.html">測試</a>
-    </div>
+    </div> -->
 
     <!----- Footer ----->
     <div class="outer">
@@ -41,26 +73,149 @@
             <h1>門市據點 <br>Store Location</h1>
         </div>
         <div class="dropdown">
-            <select>
+            <!-- <select>
                 <option>請選擇國家</option>
                 <option>台灣</option>
                 <option>日本</option>
                 <option>加拿大</option>
                 <option>韓國</option>
 
-            </select>
+            </select> -->
 
             <select>
                 <option>請選擇地區</option>
-                <option>台北</option>
-                <option>宜蘭</option>
+                <option value="台北">台北</option>
+                <option value="宜蘭">宜蘭</option>
                 <option>台南</option>
                 <option>高雄</option>
                 <option>台中</option>
                 <option>桃園</option>
             </select>
         </div>
+
+
+        <!-- 測設測試 -->
+        <!----- menu ----->
+        <div class="menu">
+            <div class="card-台北 -none">
+                <ul>
+                    <li>
+                        <h2>忠孝復興店1</h2>
+                        <i class="fa fa-phone -3fa" aria-hidden="true"> 電話 : 1234 - 5678 </i> <br>
+                        <i class="fa fa-clock-o -3fa" aria-hidden="true"> 營業時間 : 10:00-22:00</i> <br>
+                        <i class="fa fa-street-view -3fa" aria-hidden="true"> 地址 : 台北市大安區復興南路一段107巷29號</i>
+                    </li>
+        
+                    <li>
+                        <h2>忠孝復興店2</h2>
+                        <i class="fa fa-phone -3fa" aria-hidden="true"> 電話 : 1234 - 5678 </i> <br>
+                        <i class="fa fa-clock-o -3fa" aria-hidden="true"> 營業時間 : 10:00-22:00</i> <br>
+                        <i class="fa fa-street-view -3fa" aria-hidden="true"> 地址 : 台北市大安區復興南路一段107巷29號</i>
+                    </li>
+        
+                    <li>
+                        <h2>忠孝復興店3</h2>
+                        <i class="fa fa-phone -3fa" aria-hidden="true"> 電話 : 1234 - 5678 </i> <br>
+                        <i class="fa fa-clock-o -3fa" aria-hidden="true"> 營業時間 : 10:00-22:00</i> <br>
+                        <i class="fa fa-street-view -3fa" aria-hidden="true"> 地址 : 台北市大安區復興南路一段107巷29號</i>
+                    </li>
+        
+                    <li>
+                        <h2>忠孝復興店4</h2>
+                        <i class="fa fa-phone -3fa" aria-hidden="true"> 電話 : 1234 - 5678 </i> <br>
+                        <i class="fa fa-clock-o -3fa" aria-hidden="true"> 營業時間 : 10:00-22:00</i> <br>
+                        <i class="fa fa-street-view -3fa" aria-hidden="true"> 地址 : 台北市大安區復興南路一段107巷29號</i>
+                    </li>
+        
+                    <li>
+                        <h2>忠孝復興店5</h2>
+                        <i class="fa fa-phone -3fa" aria-hidden="true"> 電話 : 1234 - 5678 </i> <br>
+                        <i class="fa fa-clock-o -3fa" aria-hidden="true"> 營業時間 : 10:00-22:00</i> <br>
+                        <i class="fa fa-street-view -3fa" aria-hidden="true"> 地址 : 台北市大安區復興南路一段107巷29號</i>
+                    </li>
+        
+                    <li>
+                        <h2>忠孝復興店6</h2>
+                        <i class="fa fa-phone -3fa" aria-hidden="true"> 電話 : 1234 - 5678 </i> <br>
+                        <i class="fa fa-clock-o -3fa" aria-hidden="true"> 營業時間 : 10:00-22:00</i> <br>
+                        <i class="fa fa-street-view -3fa" aria-hidden="true"> 地址 : 台北市大安區復興南路一段107巷29號</i>
+                    </li>
+
+                    <li>
+                        <h2>忠孝復興店6</h2>
+                        <i class="fa fa-phone -3fa" aria-hidden="true"> 電話 : 1234 - 5678 </i> <br>
+                        <i class="fa fa-clock-o -3fa" aria-hidden="true"> 營業時間 : 10:00-22:00</i> <br>
+                        <i class="fa fa-street-view -3fa" aria-hidden="true"> 地址 : 台北市大安區復興南路一段107巷29號</i>
+                    </li>
+
+                    <li>
+                        <h2>忠孝復興店6</h2>
+                        <i class="fa fa-phone -3fa" aria-hidden="true"> 電話 : 1234 - 5678 </i> <br>
+                        <i class="fa fa-clock-o -3fa" aria-hidden="true"> 營業時間 : 10:00-22:00</i> <br>
+                        <i class="fa fa-street-view -3fa" aria-hidden="true"> 地址 : 台北市大安區復興南路一段107巷29號</i>
+                    </li>
+
+                    <li>
+                        <h2>忠孝復興店6</h2>
+                        <i class="fa fa-phone -3fa" aria-hidden="true"> 電話 : 1234 - 5678 </i> <br>
+                        <i class="fa fa-clock-o -3fa" aria-hidden="true"> 營業時間 : 10:00-22:00</i> <br>
+                        <i class="fa fa-street-view -3fa" aria-hidden="true"> 地址 : 台北市大安區復興南路一段107巷29號</i>
+                    </li>
+
+                    <li>
+                        <h2>忠孝復興店6</h2>
+                        <i class="fa fa-phone -3fa" aria-hidden="true"> 電話 : 1234 - 5678 </i> <br>
+                        <i class="fa fa-clock-o -3fa" aria-hidden="true"> 營業時間 : 10:00-22:00</i> <br>
+                        <i class="fa fa-street-view -3fa" aria-hidden="true"> 地址 : 台北市大安區復興南路一段107巷29號</i>
+                    </li>
+                </ul>
+            </div>
+        
+        
+            <!-- 宜蘭測試 -->
+            <div class="card-宜蘭 -none">
+                <ul>
+                    <li>
+                        <h2>宜蘭1</h2>
+                        <i class="fa fa-phone -3fa" aria-hidden="true"> 電話 : 1234 - 5678 </i> <br>
+                        <i class="fa fa-clock-o -3fa" aria-hidden="true"> 營業時間 : 10:00-22:00</i> <br>
+                        <i class="fa fa-street-view -3fa" aria-hidden="true"> 地址 : 台北市大安區復興南路一段107巷29號</i>
+                    </li>
+        
+                    <li>
+                        <h2>宜蘭2</h2>
+                        <i class="fa fa-phone -3fa" aria-hidden="true"> 電話 : 1234 - 5678 </i> <br>
+                        <i class="fa fa-clock-o -3fa" aria-hidden="true"> 營業時間 : 10:00-22:00</i> <br>
+                        <i class="fa fa-street-view -3fa" aria-hidden="true"> 地址 : 台北市大安區復興南路一段107巷29號</i>
+                    </li>
+        
+                    <li>
+                        <h2>宜蘭3</h2>
+                        <i class="fa fa-phone -3fa" aria-hidden="true"> 電話 : 1234 - 5678 </i> <br>
+                        <i class="fa fa-clock-o -3fa" aria-hidden="true"> 營業時間 : 10:00-22:00</i> <br>
+                        <i class="fa fa-street-view -3fa" aria-hidden="true"> 地址 : 台北市大安區復興南路一段107巷29號</i>
+                    </li>
+
+                    <li>
+                        <h2>宜蘭4</h2>
+                        <i class="fa fa-phone -3fa" aria-hidden="true"> 電話 : 1234 - 5678 </i> <br>
+                        <i class="fa fa-clock-o -3fa" aria-hidden="true"> 營業時間 : 10:00-22:00</i> <br>
+                        <i class="fa fa-street-view -3fa" aria-hidden="true"> 地址 : 台北市大安區復興南路一段107巷29號</i>
+                    </li>
+        
+                </ul>
+            </div>
+        
+        </div>
     </div>
+
+    
+
+
+
+
+
+
     <!----- Footer ----->
     <div class="footer">
         <div class="logo">
@@ -90,6 +245,23 @@
     
         </div>
     </div>
+</div>
+
+    <script>
+        var select_btn = document.getElementsByClassName("dropdown")[0];
+            select_btn.addEventListener("click",(e)=>{
+                var a = e.target.value;
+                 if(a=="台北"){
+                    select_btn.closest(".outer").querySelector(".card-宜蘭").classList.add("-none");
+                    select_btn.closest(".outer").querySelector(".card-台北").classList.remove("-none");
+                 }else if(a == "宜蘭"){
+                    select_btn.closest(".outer").querySelector(".card-宜蘭").classList.remove("-none");
+                    select_btn.closest(".outer").querySelector(".card-台北").classList.add("-none");
+                 }
+            })
+    </script>
+
+
 </body>
 
 </html>
