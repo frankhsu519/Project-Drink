@@ -41,43 +41,62 @@
 <div class="tab">
     <ul>
         <li class="tab1">
-            聯絡客服
+            <a href="#">聯絡客服</a>
         </li>
         <li class="tab2">
-            <a href="./WANTED.html">人才招募</a>
+            <a href="#">人才招募</a>
         </li>
     </ul>
-</div>
-<div class="list">
-    <form action="#" method="post">
-        <ul id="contact-form">
-            <li><label>姓名<i>※</i></label><input name="FO_input_name" type="text" class="input-text" required=""
-                    placeholder="請填寫"></li>
-            <li><label>性別</label><select name="FO_sex">
-                    <option value="">請選擇</option>
-                    <option value="先生">先生</option>
-                    <option value="女士">女士</option>
-                </select></li>
-            <li><label>電話<i>※</i></label><input name="FO_tel" value="" type="text" class="input-text" required=""
-                    placeholder="請填寫"></li>
-            <li><label>信箱<i>※</i></label><input name="FO_email" value="" type="text" class="input-text" required=""
-                    placeholder="請填寫"></li>
-    
-            
-            </li>
-            <li><label>購買時間<i>※</i></label><input name="FO_buy_time" value="" type="text" class="input-text" required=""
-                    placeholder="請填寫"></li>
-            <li class="li-full"><label>意見內容<i>※</i></label><textarea name="FO_content" id="" rows="10" spellcheck="false"
-                    class="input-textarea" placeholder="請填寫"></textarea></li>
-            
-            <li class="li-botton"><b class="see-more"><a href="#"><input type="submit" name="b1"
-                            value="送出表單"></a></b></li>
-        </ul>
-</div>
 
+
+    <div class="list">
+        <form action="#" method="post">
+            <ul id="contact-form">
+                <li><label>姓名<i>※</i></label><input name="FO_input_name" type="text" class="input-text" required=""
+                        placeholder="請填寫"></li>
+                <li><label>性別</label><select name="FO_sex">
+                        <option value="">請選擇</option>
+                        <option value="先生">先生</option>
+                        <option value="女士">女士</option>
+                    </select></li>
+                <li><label>電話<i>※</i></label><input name="FO_tel" value="" type="text" class="input-text" required=""
+                        placeholder="請填寫"></li>
+                <li><label>信箱<i>※</i></label><input name="FO_email" value="" type="text" class="input-text" required=""
+                        placeholder="請填寫"></li>
+    
+    
+                </li>
+                <li><label>購買時間<i>※</i></label><input name="FO_buy_time" value="" type="text" class="input-text" required=""
+                        placeholder="請填寫"></li>
+                <li class="li-full"><label>意見內容<i>※</i></label><textarea name="FO_content" id="" rows="10"
+                        spellcheck="false" class="input-textarea" placeholder="請填寫"></textarea></li>
+    
+                <li class="li-botton"><b class="see-more"><a href="#"><input type="submit" name="b1" value="送出表單"></a></b>
+                </li>
+            </ul>
+    </div>
+    
     <!-- 招募區塊 -->
-
     
+    <div class="out -none">
+        <div class="left">
+            <img src="./img/CONTACTUS/WANTED1.jpg" alt="">
+        </div>
+    
+        <div class="right">
+            <h1>人才招募 <br> WE WANT YOU !</h1>
+            <p>我們知道一個人不能，但一群人可以
+                因為團隊，所以我們走到現在
+                因為信任，所以我們彼此扶持
+                因為初衷，所以我們堅持不放棄
+                我們珍惜每位喜愛我們的顧客
+                也珍惜每位和我們一同成長的夥伴</p>
+            <a href="#">職缺消息</a>
+        </div>
+    </div>
+
+</div>
+
 
     <!----- Footer ----->
     <div class="footer">
@@ -109,4 +128,27 @@
         </div>
     </div>
     
+
+    <script>
+        var btn_click = document.getElementsByClassName("tab1")[0];
+        btn_click.addEventListener("click",() => {
+            btn_click.closest(".tab").querySelector(".out").classList.add("-none");
+            btn_click1.closest(".tab").querySelector(".list").classList.remove("-none");
+            btn_click1.setAttribute("style", "background-color: #666666;");
+            btn_click.setAttribute("style", "background-color: #ffe893;");
+        });
+
+        var btn_click1 = document.getElementsByClassName("tab2")[0];
+            btn_click1.addEventListener("click", () => {
+                btn_click1.closest(".tab").querySelector(".list").classList.add("-none");
+                btn_click.closest(".tab").querySelector(".out").classList.remove("-none");
+                btn_click.setAttribute("style","background-color: #666666;");
+                btn_click1.setAttribute("style", "background-color: #ffe893;");
+            });
+
+
+
+    </script>
+
+
 </body>

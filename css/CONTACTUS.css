@@ -42,6 +42,16 @@ body {
 .tab1 {
   background-color: #ffe893;
 }
+.tab1 a {
+  text-decoration: none;
+  color: gray;
+}
+
+.tab1 a:hover,
+.tab1:hover {
+  color: #4d952e;
+  transition-duration: 1s;
+}
 
 .tab2 {
   background-color: #666666;
@@ -52,7 +62,7 @@ body {
 }
 .tab2 a:hover,
 .tab2:hover {
-  color: #ffe893;
+  color: #4d952e;
   transition-duration: 1s;
 }
 
@@ -116,4 +126,63 @@ ul#contact-form li select {
 }
 ul#contact-form li .input-textarea {
   height: auto;
+}
+
+/* 招募區塊 */
+
+.out {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.left {
+  width: 600px;
+}
+
+.left img {
+  width: 600px;
+  display: block;
+}
+
+.right {
+  width: 600px;
+  padding-top: 30px;
+  padding-left: 30px;
+  background-color: #ffe893;
+  line-height: 1.6;
+}
+
+.right h1 {
+  font-size: 29px;
+  margin-bottom: 30px;
+  color: #132a44;
+}
+
+.right p {
+  font-size: 20px;
+  width: 550px;
+}
+
+.right a {
+  display: block;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4d952e;
+  color: black;
+  font-size: 18px;
+  margin-top: 30px;
+  transform: scale(1);
+  transition: 1s;
+}
+
+.right a:hover {
+  background-color: #4d952e;
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.-none {
+  display: none;
 }
