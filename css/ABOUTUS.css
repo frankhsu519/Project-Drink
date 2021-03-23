@@ -7,6 +7,9 @@
 body {
   font-family: Arial;
 }
+img {
+  max-width: 100%;
+}
 
 .wrapper {
   max-width: 1200px;
