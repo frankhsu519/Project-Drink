@@ -75,6 +75,11 @@ img {
 
 .swiper-container {
   width: 100%;
+  /* height: 100%; */
+}
+
+#sw2 {
+  font-size: 18px;
 }
 @media screen and (min-width: 1200px) {
   #sw1 {
@@ -228,10 +233,10 @@ img {
   }
 
   .lim-right {
-    width: 537px;
+    width: 100%;
   }
   .lim-left {
-    width: 537px;
+    width: 100%;
   }
 }
 
@@ -326,10 +331,10 @@ img {
   }
 
   .bs-right {
-    width: 537px;
+    width: 100%;
   }
   .bs-left {
-    width: 537px;
+    width: 100%;
   }
 }
 
@@ -428,9 +433,9 @@ img {
   }
 
   .mk-right {
-    width: 537px;
+    width: 100%;
   }
   .mk-left {
-    width: 537px;
+    width: 100%;
   }
 }

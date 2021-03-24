@@ -3,7 +3,7 @@
   background-color: #4d952e;
   display: flex;
   /* flex-wrap: wrap; */
-
+  width: 100%;
   position: relative;
 }
 
