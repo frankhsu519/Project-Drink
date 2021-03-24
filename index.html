@@ -77,20 +77,29 @@
         <div class="news-text">
             <h1>最新消息</h1>
             <ul>
-                <li><a href="./NEWS-inside.html">
+                <li><a id="ne1" href="./NEWS-inside.html">
                         <p>春節期間 全台門市公告 !</p>
                     </a></li>
-                <li><a href="#">
+                <li><a id="ne2" href="#">
                         <p>全新強打黑糖新品，是豆花系列經典登場 !</p>
                     </a></li>
-                <li><a href="#">
+                <li><a id="ne3" href="#">
                         <p>金馬重磅聯名新品 華麗登場 !</p>
                     </a></li>
             </ul>   
         </div>
-        <div class="news-img">
-            <img src="./img/main/mainNews1.jpg" alt="">
+        <div class="news-img ">
+            <img class="q" src="./img/main/mainNews1.jpg" alt="">
+            <img class="q -none" src="./img/ABOUTUS/att.png" alt="">
+            <img class="q -none" src="./img/PRODUCT/pr-ad2.jpg" alt="">
         </div>
+
+        
+            
+
+        
+            
+        
     </div>
 
     <!----- food block  ----->
@@ -195,6 +204,48 @@
 
         hamburger.closest(".nav").querySelector(".nav-item").classList.toggle("-none");
     });
+</script>
+
+<script>
+     var news_in = document.getElementById("ne2");
+     news_in.addEventListener("mouseenter",()=>{
+     let a = news_in.closest(".news").querySelector(".news-img > img:nth-child(2)");
+     let b = news_in.closest(".news").querySelector(".news-img > img:nth-child(1)");
+     let c = news_in.closest(".news").querySelector(".news-img > img:nth-child(3)");  
+        a.classList.remove("-none");
+        b.classList.add("-none");
+        c.classList.add("-none");
+     });
+
+     news_in.addEventListener("mouseleave", () => {
+        let a = news_in.closest(".news").querySelector(".news-img > img:nth-child(2)");
+        let b = news_in.closest(".news").querySelector(".news-img > img:nth-child(1)");
+        let c = news_in.closest(".news").querySelector(".news-img > img:nth-child(3)"); 
+            a.classList.add("-none");
+            b.classList.remove("-none");
+            c.classList.add("-none");
+        });
+
+
+     var news_hv3 = document.getElementById("ne3");
+        news_hv3.addEventListener("mouseenter", () => {
+            let a = news_hv3.closest(".news").querySelector(".news-img > img:nth-child(3)");
+            let b = news_hv3.closest(".news").querySelector(".news-img > img:nth-child(1)");
+            let c = news_hv3.closest(".news").querySelector(".news-img > img:nth-child(2)");
+            a.classList.remove("-none");
+            b.classList.add("-none");
+            c.classList.add("-none");
+        });
+        
+    news_hv3.addEventListener("mouseleave", () => {
+            let a = news_hv3.closest(".news").querySelector(".news-img > img:nth-child(3)");
+            let b = news_hv3.closest(".news").querySelector(".news-img > img:nth-child(1)");
+            let c = news_hv3.closest(".news").querySelector(".news-img > img:nth-child(2)");
+            a.classList.add("-none");
+            b.classList.remove("-none");
+            c.classList.add("-none");
+        });    
+
 </script>
 
 
