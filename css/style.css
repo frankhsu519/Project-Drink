@@ -235,6 +235,8 @@ body {
 
 .food li {
   position: relative;
+
+  border: 1px solid red;
 }
 
 .food img {
@@ -264,8 +266,9 @@ body {
   border: 3px solid white;
   color: white;
   position: absolute;
-  left: 250px;
-  top: 190px;
+
+  right: 0;
+  top: 0;
 }
 .cr2 {
   /* 茶葉外圓 */
@@ -276,8 +279,8 @@ body {
   border: 3px solid #10e93c;
   color: #10e93c;
   position: absolute;
-  left: 250px;
-  top: 190px;
+  right: 0;
+  top: 0;
 }
 
 .cr3 {
@@ -289,8 +292,8 @@ body {
   border: 3px solid #7a554a;
   color: #7a554a;
   position: absolute;
-  left: 250px;
-  top: 190px;
+  right: 0;
+  top: 0;
 }
 
 .food img:hover {
@@ -309,12 +312,12 @@ body {
     width: 300px;
   }
 
-  .cr1 {
+  /* .cr1 {
     left: 200px;
     top: 150px;
-  }
+  } */
 
-  .cr2 {
+  /* .cr2 {
     left: 200px;
     top: 150px;
   }
@@ -322,7 +325,7 @@ body {
   .cr3 {
     left: 200px;
     top: 150px;
-  }
+  } */
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -334,12 +337,7 @@ body {
     width: 230px;
   }
 
-  .cr1 {
-    left: 130px;
-    top: 110px;
-  }
-
-  .cr2 {
+  /* .cr2 {
     left: 130px;
     top: 110px;
   }
@@ -347,7 +345,7 @@ body {
   .cr3 {
     left: 130px;
     top: 110px;
-  }
+  } */
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -365,12 +363,7 @@ body {
     margin-bottom: 70px;
   }
 
-  .cr1 {
-    left: 440px;
-    top: 315px;
-  }
-
-  .cr2 {
+  /* .cr2 {
     left: 440px;
     top: 315px;
   }
@@ -378,7 +371,7 @@ body {
   .cr3 {
     left: 440px;
     top: 315px;
-  }
+  } */
 }
 
 @media screen and (max-width: 575px) {
@@ -386,21 +379,15 @@ body {
     width: 100%;
   }
 
-  .cr1 {
-    left: 437px;
-    top: 315px;
-    /* border: 1px solid red; */
-  }
-
-  .cr2 {
-    left: 437px;
+  /* .cr2 {
+    left: 435px;
     top: 315px;
   }
 
   .cr3 {
-    left: 437px;
+    left: 435px;
     top: 315px;
-  }
+  } */
   .food li {
     margin-bottom: 70px;
   }
