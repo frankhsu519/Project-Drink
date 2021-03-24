@@ -119,7 +119,8 @@ body {
   }
 
   .news-img img {
-    height: 100%;
+    /* height: 100%; */
+    /* border: 1px solid red; */
   }
   .news-text h1 {
     /* border: 1px solid green; */

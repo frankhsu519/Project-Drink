@@ -106,35 +106,35 @@
     <div class="food">
         <h1>嚴選的食材 最溫暖的職人精神 最真實的癮茶 </h1>
             <ul>
-                <li>
+                <li class="l1">
                     <div class="zoom-in" data-aos="fade-right">
                         <img src="./img/main/mk-new.jpg" alt="" >
                     </div>
                     <div class="cr1" data-aos="zoom-out-up" data-aos-duration="2000">
                         <h2 class="mk">牛奶</h2>
                      </div>
-                    <h3>香醇牛奶 <br> 讚不絕口</h3>
+                    <!-- <h3>香醇牛奶 <br> 讚不絕口</h3> -->
                 </li>
 
-                <li>
+                <li class="l2">
                     <div class="zoom-in" data-aos="fade-up">
                         <img src="./img/main/le.jpg" alt="">
                     </div>
                     <div class="cr2" data-aos="zoom-out-up" data-aos-duration="2000">
                         <h2 class="le">茶葉</h2>
                     </div>
-                    <h3>嚴選茶葉<br>入口回甘</h3>
+                    <!-- <h3>嚴選茶葉<br>入口回甘</h3> -->
 
                 </li>
 
-                <li>
+                <li class="l3">
                     <div class="zoom-in" data-aos="fade-left">
                         <img src="./img/main/bs.jpg" alt="">
                     </div>
                         <div class="cr3" data-aos="zoom-out-up" data-aos-duration="2000">
                         <h2 class="bs">黑糖</h2>
                     </div>
-                    <h3>獨家秘方<br>古早味黑糖</h3>
+                    <!-- <h3>獨家秘方<br>古早味黑糖</h3> -->
 
                 </li>
             </ul>
@@ -237,7 +237,7 @@
             c.classList.add("-none");
         });
         
-    news_hv3.addEventListener("mouseleave", () => {
+        news_hv3.addEventListener("mouseleave", () => {
             let a = news_hv3.closest(".news").querySelector(".news-img > img:nth-child(3)");
             let b = news_hv3.closest(".news").querySelector(".news-img > img:nth-child(1)");
             let c = news_hv3.closest(".news").querySelector(".news-img > img:nth-child(2)");
@@ -246,6 +246,57 @@
             c.classList.add("-none");
         });    
 
+</script>
+
+<script>
+    var  food_btn = document.getElementsByClassName("mk")[0];
+         food_btn.addEventListener("click",(e)=>{
+             let str = "<h3 id = 'q'>香醇牛奶 <br> 讚不絕口</h3>";
+             let temp = food_btn.closest(".food").querySelector(".l1");
+
+             if(e.target.classList.contains("-add")){
+                let q = document.getElementById("q");
+                q.remove();
+                food_btn.classList.remove("-add");
+             }else{
+                 temp.insertAdjacentHTML("beforeend",str);
+                 food_btn.classList.add("-add");
+             }
+        });
+</script>
+
+<script>
+    var le_btn = document.getElementsByClassName("le")[0];
+    le_btn.addEventListener("click", (e) => {
+        let str = "<h3 id = 'w'>嚴選茶葉<br>入口回甘</h3>";
+        let temp = food_btn.closest(".food").querySelector(".l2");
+
+        if (e.target.classList.contains("-add")) {
+            let q = document.getElementById("w");
+            q.remove();
+            le_btn.classList.remove("-add");
+        } else {
+            temp.insertAdjacentHTML("beforeend", str);
+            le_btn.classList.add("-add");
+        }
+    });
+</script>
+
+<script>
+    var bs_btn = document.getElementsByClassName("bs")[0];
+    bs_btn.addEventListener("click", (e) => {
+        let str = "<h3 id = 'e'>獨家秘方<br>古早味黑糖</h3>";
+        let temp = food_btn.closest(".food").querySelector(".l3");
+
+        if (e.target.classList.contains("-add")) {
+            let q = document.getElementById("e");
+            q.remove();
+            bs_btn.classList.remove("-add");
+        } else {
+            temp.insertAdjacentHTML("beforeend", str);
+            bs_btn.classList.add("-add");
+        }
+    });
 </script>
 
 
