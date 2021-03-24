@@ -50,8 +50,9 @@
 
 .hamburger {
   position: absolute;
+
   top: 45px;
-  left: 350px;
+  right: 0;
 
   outline: 0;
 }
