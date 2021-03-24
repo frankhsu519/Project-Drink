@@ -175,6 +175,11 @@ body {
 
   .seemore {
     margin-bottom: 20px;
+    width: 60%;
+  }
+
+  .big-left {
+    width: 100%;
   }
 }
 

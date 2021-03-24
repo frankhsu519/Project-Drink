@@ -251,7 +251,7 @@
 <script>
     var  food_btn = document.getElementsByClassName("mk")[0];
          food_btn.addEventListener("click",(e)=>{
-             let str = "<h3 id = 'q'>香醇牛奶 <br> 讚不絕口</h3>";
+             let str = "<h3 id = 'q' data-aos='fade-up - right' data-aos-duration='2500'>香醇牛奶 <br> 讚不絕口</h3>";
              let temp = food_btn.closest(".food").querySelector(".l1");
 
              if(e.target.classList.contains("-add")){
@@ -268,7 +268,7 @@
 <script>
     var le_btn = document.getElementsByClassName("le")[0];
     le_btn.addEventListener("click", (e) => {
-        let str = "<h3 id = 'w'>嚴選茶葉<br>入口回甘</h3>";
+        let str = "<h3 id = 'w' data-aos='fade-up - right' data-aos-duration='2500'>嚴選茶葉<br>入口回甘</h3>";
         let temp = food_btn.closest(".food").querySelector(".l2");
 
         if (e.target.classList.contains("-add")) {
@@ -285,7 +285,7 @@
 <script>
     var bs_btn = document.getElementsByClassName("bs")[0];
     bs_btn.addEventListener("click", (e) => {
-        let str = "<h3 id = 'e'>獨家秘方<br>古早味黑糖</h3>";
+        let str = "<h3 id = 'e' data-aos='fade-up - right' data-aos-duration='2500'>獨家秘方<br>古早味黑糖</h3>";
         let temp = food_btn.closest(".food").querySelector(".l3");
 
         if (e.target.classList.contains("-add")) {

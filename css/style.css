@@ -361,6 +361,10 @@ body {
     width: 540px;
   }
 
+  .food li {
+    margin-bottom: 70px;
+  }
+
   .cr1 {
     left: 440px;
     top: 315px;
@@ -396,6 +400,9 @@ body {
   .cr3 {
     left: 437px;
     top: 315px;
+  }
+  .food li {
+    margin-bottom: 70px;
   }
 
   .food h1 {

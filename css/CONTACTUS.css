@@ -273,3 +273,9 @@ ul#contact-form li .input-textarea {
 .-none {
   display: none;
 }
+
+.v {
+  /* border: 1px solid red; */
+  font-size: 20px;
+  border-radius: 15px;
+}
