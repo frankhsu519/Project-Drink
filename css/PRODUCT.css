@@ -335,6 +335,7 @@ img {
   }
   .bs-left {
     width: 100%;
+    order: 2;
   }
 }
 
